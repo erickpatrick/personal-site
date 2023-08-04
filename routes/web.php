@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Requests\PublicContactForm;
 use App\Models\Article;
 use App\Models\Project;
 use Illuminate\Support\Facades\Route;
@@ -100,4 +101,8 @@ Route::get('/seed-projects', function () {
     ]);
 
     return true;
+});
+
+Route::post("/contato", function (PublicContactForm $request) {
+    ddd($request);
 });
