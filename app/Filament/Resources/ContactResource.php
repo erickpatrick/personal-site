@@ -23,6 +23,12 @@ class ContactResource extends Resource
     {
         return $form
             ->schema([
+                Forms\Components\TextInput::make('name'),
+                Forms\Components\TextInput::make('email'),
+                Forms\Components\TextInput::make('subject')
+                    ->columnSpanFull(),
+                Forms\Components\TextArea::make('content')
+                    ->columnSpanFull(),
             ]);
     }
 
@@ -65,7 +71,7 @@ class ContactResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListContacts::route('/'),
+            'index' => Pages\ListContacts::route('/')
         ];
     }
 }
