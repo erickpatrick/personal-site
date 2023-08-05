@@ -10,7 +10,9 @@
                 <small class="text-xl">{{ $article->categories }}</small>
             </div>
             <div class="py-16 lg:py-24">
-                {{ $article->content }}
+                <x-buk-markdown class="prose-lg md:prose-xl lg:prose-2xl">
+                    {{ $article->content }}
+                </x-buk-markdown>
             </div>
         </div>
     </div>
