@@ -104,7 +104,7 @@ return [
         'string' => 'O campo deve ter pelo menos :min caracteres.',
     ],
     'min_digits' => 'The :attribute field must have at least :min digits.',
-    'missing' => 'The :attribute field must be missing.',
+    'missing' => '',
     'missing_if' => 'The :attribute field must be missing when :other is :value.',
     'missing_unless' => 'The :attribute field must be missing unless :other is :value.',
     'missing_with' => 'The :attribute field must be missing when :values is present.',

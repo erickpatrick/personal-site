@@ -8,6 +8,7 @@
             <div class="py-4">
                 <h4 class="text-xl font-medium leading-6 text-gray-900">Bom e velho email de contato</h4>
             </div>
+
             <livewire:contact />
         </div>
     </x-container>

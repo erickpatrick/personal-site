@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .fi-fo-field-wrp-label span {
+    @apply mt-2 text-sm font-medium leading-6 text-gray-900 dark:text-gray-900 !important;
+  }
+  .fi-input-wrapper,
+  .fi-fo-textarea {
+    @apply dark:ring-gray-300 dark:focus-within:ring-blue-600 !important;
+  }
+
+  .fi-input,
+  .fi-fo-textarea {
+    @apply dark:text-gray-900 !important;
+  }
+
+  .fi-fo-field-wrp-error-message {
+    @apply inline-block py-2 text-red-800 !important;
+  }
+}

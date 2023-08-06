@@ -1,47 +1,12 @@
-<div class="max-w-5xl">
-    <form wire:submit="save" class="grid gap-8">
-        @if (session('status'))
-        <div class="p-4 bg-green-300/5" x-data="{ show: true }" x-show="show" x-init="setTimeout(() => show = false, 3000)">
-            {{ session('status') }}
-        </div>
-        @endif
+<div>
+    @if (session('status'))
+    <div class="p-4 bg-green-300/5" x-data="{ show: true }" x-show="show" x-init="setTimeout(() => show = false, 3000)">
+        {{ session('status') }}
+    </div>
+    @endif
 
-        <div class="max-w-full">
-            <label for="name" class="block text-sm font-medium leading-6 text-gray-900">Nome</label>
-            <div class="mt-2">
-                <div class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-600 sm:max-w-xl">
-                    <input type="text" name="name" id="name" wire:model="form.name" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" />
-                </div>
-            </div>
-            <span class="py-2 inline-block text-red-800">@error('form.name'){{ $message }}@enderror</span>
-        </div>
-        <div class="max-w-full">
-            <label for="email" class="block text-sm font-medium leading-6 text-gray-900">E-mail</label>
-            <div class="mt-2">
-                <div class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-600 sm:max-w-xl">
-                    <input type="text" name="email" id="email" wire:model="form.email" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" />
-                </div>
-            </div>
-            <span class="py-2 inline-block text-red-800">@error('form.email'){{ $message }}@enderror</span>
-        </div>
-        <div class="max-w-full">
-            <label for="subject" class="block text-sm font-medium leading-6 text-gray-900">Assunto</label>
-            <div class="mt-2">
-                <div class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-600 sm:max-w-xl">
-                    <input type="text" name="subject" id="subject" wire:model="form.subject" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" />
-                </div>
-            </div>
-            <span class="py-2 inline-block text-red-800">@error('form.subject'){{ $message }}@enderror</span>
-        </div>
-        <div class="max-w-full">
-            <label for="content" class="block text-sm font-medium leading-6 text-gray-900">Conteúdo</label>
-            <div class="mt-2">
-                <div class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-600 sm:max-w-xl">
-                    <textarea id="content" name="content" rows="3" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6" wire:model="form.content"></textarea>
-                </div>
-            </div>
-            <span class="py-2 inline-block text-red-800">@error('form.content'){{ $message }}@enderror</span>
-        </div>
+    <form wire:submit="create">
+        {{ $this->form }}
 
         <div class="mt-6 flex items-center justify-end gap-x-6">
             <button type="button" class="text-sm font-semibold leading-6 text-gray-900">Cancelar</button>
@@ -57,4 +22,5 @@
         </div>
     </form>
 
+    <x-filament-actions::modals />
 </div>

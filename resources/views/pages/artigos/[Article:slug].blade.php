@@ -2,7 +2,10 @@
     <div class="p-4">
         <div class="max-w-5xl mx-auto mt-8 sm:mt-16 md:mt-32">
             <div class="text-center">
-                <x-content-time :date="$article->created_at" />
+                <div>
+                    <x-content-time :date="$article->created_at" />
+                    <x-content-reading-time :length="Str::wordCount($article->content)" />
+                </div>
 
                 <h2 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black">
                     {{ $article->title }}
