@@ -19,4 +19,8 @@
   .fi-fo-field-wrp-error-message {
     @apply inline-block py-2 text-red-800 !important;
   }
+
+  .prose-lg a {
+    @apply text-blue-600 decoration-wavy decoration-2 underline-offset-4 hover:underline;
+  }
 }
