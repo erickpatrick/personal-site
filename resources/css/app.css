@@ -23,4 +23,20 @@
   .prose-lg a {
     @apply text-blue-600 decoration-wavy decoration-2 underline-offset-4 hover:underline;
   }
+
+  .prose-lg table {
+    @apply min-w-full divide-y divide-gray-300;
+  }
+
+  .prose-lg th {
+    @apply py-3.5 pl-4 pr-3 text-left font-semibold text-gray-900 sm:pl-0;
+  }
+
+  .prose-lg tbody {
+    @apply divide-y divide-gray-200;
+  }
+
+  .prose-lg td {
+    @apply whitespace-nowrap py-4 pl-4 pr-3 text-gray-900 sm:pl-0;
+  }
 }
