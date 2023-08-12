@@ -11,7 +11,7 @@ $finalTitle = isset($title)
 @endphp
 
 <!DOCTYPE html>
-<html lang="pt_BR" class="light">
+<html lang="pt-BR" class="light">
 
 <head>
     <meta charset="UTF-8">
