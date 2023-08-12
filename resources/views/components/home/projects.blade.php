@@ -13,7 +13,9 @@
                     </a>
                 </div>
                 <div class="bg-blue-600/5 p-6 sm:p-10">
-                    <a href="https://www.contrataodevcerto.com/" title="Contrata o Dev Certo" target="_blank"
+                    {{-- <a href="https://www.contrataodevcerto.com/" title="Contrata o Dev Certo" target="_blank"
+                        class="text-center"> --}}
+                    <a href="https://www.erickpatrick.net/projetos" title="Contrata o Dev Certo" target="_blank"
                         class="text-center">
                         <span class="inline-block">
                             <span class="block text-xl font-semibold -mb-2 mt-2">Contrata o</span>
@@ -22,7 +24,9 @@
                     </a>
                 </div>
                 <div class="bg-blue-600/5 p-6 sm:p-10">
-                    <a href="https://www.rpgnasemana.com/" title="RPG na Semana" target="_blank"
+                    {{-- <a href="https://www.rpgnasemana.com/" title="RPG na Semana" target="_blank"
+                        class="text-center"> --}}
+                    <a href="https://www.erickpatrick.net/projetos" title="Contrata o Dev Certo" target="_blank"
                         class="text-center">
                         <span class="inline-block">
                             <span class="block text-xl font-semibold -mb-2 mt-2">RPG na</span>
@@ -31,7 +35,9 @@
                     </a>
                 </div>
                 <div class="bg-blue-600/5 p-6 sm:p-10">
-                    <a href="https://www.tarefasdodia.com/" title="Tarefas do dia" target="_blank"
+                    {{-- <a href="https://www.tarefasdodia.com/" title="Tarefas do dia" target="_blank"
+                        class="text-center"> --}}
+                    <a href="https://www.erickpatrick.net/projetos" title="Contrata o Dev Certo" target="_blank"
                         class="text-center">
                         <span class="inline-block">
                             <span class="block text-xl font-semibold -mb-2 mt-2">Tarefas</span>
@@ -40,7 +46,9 @@
                     </a>
                 </div>
                 <div class="bg-blue-600/5 p-6 sm:p-10">
-                    <a href="https://www.nomnmo.com/" title="No Mnmo" target="_blank"
+                    {{-- <a href="https://www.nomnmo.com/" title="No Mnmo" target="_blank"
+                        class="text-center"> --}}
+                    <a href="https://www.erickpatrick.net/projetos" title="Contrata o Dev Certo" target="_blank"
                         class="text-center">
                         <span class="inline-block">
                             <span class="block text-xl font-semibold -mb-2 mt-2">No</span>
@@ -49,7 +57,9 @@
                     </a>
                 </div>
                 <div class="bg-blue-600/5 p-6 sm:p-10">
-                    <a href="https://www.itinerario-de-viagem.com/" title="Itinerário de Viagem" target="_blank"
+                    {{-- <a href="https://www.itinerario-de-viagem.com/" title="Itinerário de Viagem" target="_blank"
+                        class="text-center"> --}}
+                    <a href="https://www.erickpatrick.net/projetos" title="Contrata o Dev Certo" target="_blank"
                         class="text-center">
                         <span class="inline-block">
                             <span class="block text-xl font-semibold -mb-2 mt-2">Itinerário</span>
