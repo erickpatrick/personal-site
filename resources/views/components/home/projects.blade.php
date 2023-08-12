@@ -1,6 +1,6 @@
 <div class="text-center">
-    <h4 class="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-black">Alguns dos projetos que tenho
-        trabalhado</h4>
+    <h3 class="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-black">Alguns dos projetos que tenho
+        trabalhado</h3>
     <div class="bg-white py-8 sm:py-16">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
