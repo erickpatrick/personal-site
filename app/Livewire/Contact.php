@@ -30,7 +30,7 @@ class Contact extends Component implements HasForms
                     ->rules(['required','email:filter']),
                 \Filament\Forms\Components\TextInput::make('subject')->label('Assunto')
                     ->rules(['required', 'min:5', 'max:100']),
-                \Filament\Forms\Components\TextArea::make('content')->label('Conteúdo')
+                \Filament\Forms\Components\Textarea::make('content')->label('Conteúdo')
                 ->rules(['required', 'min:5', 'max:2000']),
                 \Filament\Forms\Components\TextInput::make('empresa')->hiddenLabel('Empresa')
                     ->extraAttributes(['class' => 'hidden'])->rules(['missing'])->placeholder("Não preencha/Do not fill"),
