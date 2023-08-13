@@ -6,7 +6,7 @@
 
 @php
 $finalTitle = isset($title)
-    ? "${title} | Site pessoal de Erick Patrick"
+    ? "{$title} | Site pessoal de Erick Patrick"
     : "Site pessoal de Erick Patrick"
 @endphp
 
