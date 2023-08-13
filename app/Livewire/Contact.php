@@ -34,8 +34,6 @@ class Contact extends Component implements HasForms
                     ->rules(['required', 'min:5', 'max:100']),
                 Textarea::make('content')->label('Conteúdo')
                 ->rules(['required', 'min:5', 'max:2000']),
-                TextInput::make('empresa')->hiddenLabel('Empresa')
-                    ->extraAttributes(['class' => 'hidden'])->rules(['missing'])->placeholder("Não preencha/Do not fill"),
             ])
             ->statePath('data')
             ->model(ContactModel::class);
@@ -45,9 +43,9 @@ class Contact extends Component implements HasForms
     {
         $data = $this->form->getState();
 
-        ContactModel::create($data);
+        $record = ContactModel::create($data);
 
-        // $this->form->model($record)->saveRelationships();
+        $this->form->model($record)->saveRelationships();
 
         session()->flash('status', 'Obrigado por entrar em contato.');
 
