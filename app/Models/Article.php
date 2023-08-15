@@ -10,7 +10,7 @@ class Article extends Model
     use HasFactory;
 
     protected $fillable = [
-        'slug', 'title', 'description', 'keywords', 'content', 'status'
+        'slug', 'title', 'description', 'keywords', 'content', 'status',
     ];
 
     protected $casts = [

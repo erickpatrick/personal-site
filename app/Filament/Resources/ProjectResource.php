@@ -3,7 +3,6 @@
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\ProjectResource\Pages;
-use App\Filament\Resources\ProjectResource\RelationManagers;
 use App\Models\Project;
 use Filament\Forms;
 use Filament\Forms\Components\Section;
@@ -11,8 +10,6 @@ use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class ProjectResource extends Resource
 {
@@ -25,27 +22,27 @@ class ProjectResource extends Resource
         return $form
             ->schema([
                 Section::make('Main data')
-                ->aside()
-                ->schema([
-                    Forms\Components\TextInput::make('title')->required(),
-                    Forms\Components\TextInput::make('icon')->required(),
-                    Forms\Components\TextInput::make('url')
-                        ->required()
-                        ->url(),
-                    Forms\Components\Textarea::make('description')
-                        ->required(),
-                    Forms\Components\TagsInput::make('keywords')
-                        ->separator(',')
-                        ->nestedRecursiveRules([
-                            'min:3',
-                            'max:50',
-                        ]),
-                    Forms\Components\Radio::make('status')
-                        ->options([
+                    ->aside()
+                    ->schema([
+                        Forms\Components\TextInput::make('title')->required(),
+                        Forms\Components\TextInput::make('icon')->required(),
+                        Forms\Components\TextInput::make('url')
+                            ->required()
+                            ->url(),
+                        Forms\Components\Textarea::make('description')
+                            ->required(),
+                        Forms\Components\TagsInput::make('keywords')
+                            ->separator(',')
+                            ->nestedRecursiveRules([
+                                'min:3',
+                                'max:50',
+                            ]),
+                        Forms\Components\Radio::make('status')
+                            ->options([
                                 'draft' => 'Draft',
-                                'published' => 'Published'
-                        ])->inline(),
-                ]),
+                                'published' => 'Published',
+                            ])->inline(),
+                    ]),
             ]);
     }
 

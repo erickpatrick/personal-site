@@ -8,8 +8,8 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Forms\Form;
-use Livewire\Component;
 use Illuminate\Contracts\View\View;
+use Livewire\Component;
 
 class Contact extends Component implements HasForms
 {
@@ -29,11 +29,11 @@ class Contact extends Component implements HasForms
                 TextInput::make('name')->label('Nome')
                     ->rules(['required', 'min:2', 'max:50']),
                 TextInput::make('email')->label('E-mail')
-                    ->rules(['required','email:filter']),
+                    ->rules(['required', 'email:filter']),
                 TextInput::make('subject')->label('Assunto')
                     ->rules(['required', 'min:5', 'max:100']),
                 Textarea::make('content')->label('Conteúdo')
-                ->rules(['required', 'min:5', 'max:2000']),
+                    ->rules(['required', 'min:5', 'max:2000']),
             ])
             ->statePath('data')
             ->model(ContactModel::class);

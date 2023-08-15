@@ -24,34 +24,34 @@ class ArticleResource extends Resource
         return $form
             ->schema([
                 Section::make('Main data')
-                ->aside()
-                ->schema([
-                    Forms\Components\TextInput::make('title')
-                        ->reactive()
-                        ->afterStateUpdated(function (Set $set, ?string $state) {
-                            $set('slug', Str::slug($state));
-                        })
-                        ->required()
-                        ->minLength(50)
-                        ->maxLength(65)
-                        ->columnSpanFull(),
-                    Forms\Components\MarkdownEditor::make('content')
-                        ->toolbarButtons([
-                            'blockquote',
-                            'bold',
-                            'bulletList',
-                            'codeBlock',
-                            'heading',
-                            'italic',
-                            'link',
-                            'orderedList',
-                            'redo',
-                            'strike',
-                            'table',
-                            'undo',
-                        ])
-                        ->columnSpanFull(),
-                ]),
+                    ->aside()
+                    ->schema([
+                        Forms\Components\TextInput::make('title')
+                            ->reactive()
+                            ->afterStateUpdated(function (Set $set, ?string $state) {
+                                $set('slug', Str::slug($state));
+                            })
+                            ->required()
+                            ->minLength(50)
+                            ->maxLength(65)
+                            ->columnSpanFull(),
+                        Forms\Components\MarkdownEditor::make('content')
+                            ->toolbarButtons([
+                                'blockquote',
+                                'bold',
+                                'bulletList',
+                                'codeBlock',
+                                'heading',
+                                'italic',
+                                'link',
+                                'orderedList',
+                                'redo',
+                                'strike',
+                                'table',
+                                'undo',
+                            ])
+                            ->columnSpanFull(),
+                    ]),
 
                 Section::make('Metadata')
                     ->aside()
@@ -70,17 +70,17 @@ class ArticleResource extends Resource
                             ->required()
                             ->minLength(120)
                             ->maxLength(180),
-                    Forms\Components\TagsInput::make('keywords')
-                        ->separator(',')
-                        ->nestedRecursiveRules([
-                            'min:3',
-                            'max:50',
-                        ]),
-                    Forms\Components\Radio::make('status')
-                        ->options([
-                            'draft' => 'Draft',
-                            'published' => 'Published'
-                        ])->inline(),
+                        Forms\Components\TagsInput::make('keywords')
+                            ->separator(',')
+                            ->nestedRecursiveRules([
+                                'min:3',
+                                'max:50',
+                            ]),
+                        Forms\Components\Radio::make('status')
+                            ->options([
+                                'draft' => 'Draft',
+                                'published' => 'Published',
+                            ])->inline(),
                     ]),
             ]);
     }

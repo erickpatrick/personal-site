@@ -68,7 +68,7 @@ class ContactResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListContacts::route('/')
+            'index' => Pages\ListContacts::route('/'),
         ];
     }
 }
