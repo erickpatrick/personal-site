@@ -39,4 +39,17 @@
   .prose-lg td {
     @apply py-4 pl-4 pr-3 text-gray-900 sm:pl-0;
   }
+
+  .prose-lg h3,
+  .prose-lg h4 {
+    @apply font-semibold;
+  }
+
+  .prose-lg h5 {
+    @apply italic;
+  }
+
+  .prose-lg li {
+    @apply list-disc;
+  }
 }
