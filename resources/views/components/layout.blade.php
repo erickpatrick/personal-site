@@ -39,6 +39,7 @@ $finalTitle = isset($title)
     <meta property="og:description" content="{{ $description }}">
     {{-- <meta property="og:image" content="../../assets/img/og-image.png"> --}}
 
+    <x-feed-links />
 
     <title>{{ $finalTitle }}</title>
     @vite('resources/css/app.css')
