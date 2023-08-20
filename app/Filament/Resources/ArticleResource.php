@@ -24,7 +24,6 @@ class ArticleResource extends Resource
         return $form
             ->schema([
                 Section::make('Main data')
-                    ->aside()
                     ->schema([
                         Forms\Components\TextInput::make('title')
                             ->reactive()
@@ -51,10 +50,10 @@ class ArticleResource extends Resource
                                 'undo',
                             ])
                             ->columnSpanFull(),
-                    ]),
+                    ])->columnSpan(['sm' => 3, 'md' => 2, 'xl' => 2, '2xl' => 2]),
 
                 Section::make('Metadata')
-                    ->aside()
+                    ->collapsed()
                     ->schema([
                         Forms\Components\TextInput::make('slug')
                             ->required(),
@@ -81,8 +80,9 @@ class ArticleResource extends Resource
                                 'draft' => 'Draft',
                                 'published' => 'Published',
                             ])->inline(),
-                    ]),
-            ]);
+                    ])->columnSpan(['sm' => 3, 'md' => 1, 'xl' => 1, '2xl' => 1]),
+            ])
+            ->columns(['md' => 3, 'xl' => 3]);
     }
 
     public static function table(Table $table): Table
