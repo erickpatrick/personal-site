@@ -26,7 +26,7 @@ class ArticleResource extends Resource
                 Section::make('Main data')
                     ->schema([
                         Forms\Components\TextInput::make('title')
-                            ->reactive()
+                            ->live()
                             ->afterStateUpdated(function (Set $set, ?string $state) {
                                 $set('slug', Str::slug($state));
                             })
@@ -53,7 +53,7 @@ class ArticleResource extends Resource
                     ])->columnSpan(['sm' => 3, 'md' => 2, 'xl' => 2, '2xl' => 2]),
 
                 Section::make('Metadata')
-                    ->collapsed()
+                    ->collapsible()
                     ->schema([
                         Forms\Components\TextInput::make('slug')
                             ->required(),
@@ -69,12 +69,6 @@ class ArticleResource extends Resource
                             ->required()
                             ->minLength(120)
                             ->maxLength(180),
-                        Forms\Components\TagsInput::make('keywords')
-                            ->separator(',')
-                            ->nestedRecursiveRules([
-                                'min:3',
-                                'max:50',
-                            ]),
                         Forms\Components\Radio::make('status')
                             ->options([
                                 'draft' => 'Draft',

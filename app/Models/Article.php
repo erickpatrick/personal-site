@@ -12,6 +12,10 @@ class Article extends Model implements Feedable
 {
     use HasFactory;
 
+    protected $attributes = [
+        'keywords' => ''
+    ];
+
     protected $fillable = [
         'slug', 'title', 'description', 'keywords', 'content', 'status',
     ];
