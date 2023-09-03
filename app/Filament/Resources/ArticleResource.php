@@ -65,6 +65,7 @@ class ArticleResource extends Resource
                                     ->icon('heroicon-m-globe-americas')
                                     ->url(fn (Model $record): string => route('articles.view', ['article' => $record]))
                                     ->openUrlInNewTab()
+                                    ->visible(fn ($record) => $record?->status == 'published')
                             ),
                         Forms\Components\MarkdownEditor::make('description')
                             ->toolbarButtons([
@@ -112,6 +113,7 @@ class ArticleResource extends Resource
                 Action::make('View live article')
                     ->url(fn (Model $record): string => route('articles.view', ['article' => $record]))
                     ->openUrlInNewTab()
+                    ->visible(fn ($record) => $record?->status == 'published')
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
