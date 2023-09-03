@@ -6,10 +6,12 @@ use App\Filament\Resources\ArticleResource\Pages;
 use App\Models\Article;
 use Filament\Forms;
 use Filament\Forms\Components\Section;
+use Filament\Forms\Components\Actions\Action as FormAction;
 use Filament\Forms\Form;
 use Filament\Forms\Set;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Actions\Action;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
@@ -57,7 +59,13 @@ class ArticleResource extends Resource
                     ->collapsible()
                     ->schema([
                         Forms\Components\TextInput::make('slug')
-                            ->required(),
+                            ->required()
+                            ->hintAction(
+                                FormAction::make('viewLiveArticle')
+                                    ->icon('heroicon-m-globe-americas')
+                                    ->url(fn (Model $record): string => route('articles.view', ['article' => $record]))
+                                    ->openUrlInNewTab()
+                            ),
                         Forms\Components\MarkdownEditor::make('description')
                             ->toolbarButtons([
                                 'bold',
@@ -101,6 +109,9 @@ class ArticleResource extends Resource
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
+                Action::make('View live article')
+                    ->url(fn (Model $record): string => route('articles.view', ['article' => $record]))
+                    ->openUrlInNewTab()
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
