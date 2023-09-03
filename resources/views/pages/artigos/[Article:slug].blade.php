@@ -1,3 +1,11 @@
+<?php
+
+use function Laravel\Folio\name;
+
+name('articles.view');
+
+?>
+
 <x-layout menu="/artigos" title="{{ $article->title }}" description="{{ $article->description }}">
     <div class="p-4">
         <div class="max-w-5xl mx-auto mt-8 sm:mt-16 md:mt-32">
