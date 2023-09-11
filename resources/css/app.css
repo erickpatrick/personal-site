@@ -52,4 +52,12 @@
   .prose-lg ul {
     @apply list-disc;
   }
+
+  .prose-lg blockquote {
+    @apply border-l-4 border-l-slate-300;
+  }
+
+  .prose-lg blockquote p {
+    @apply py-4;
+  }
 }
