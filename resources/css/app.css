@@ -49,7 +49,7 @@
     @apply italic;
   }
 
-  .prose-lg li {
+  .prose-lg ul {
     @apply list-disc;
   }
 }
