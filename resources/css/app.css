@@ -60,4 +60,8 @@
   .prose-lg blockquote p {
     @apply py-4;
   }
+
+  .prose-lg pre {
+    @apply bg-slate-50 shadow-sm;
+  }
 }
