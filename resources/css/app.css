@@ -54,7 +54,7 @@
   }
 
   .prose-lg blockquote {
-    @apply border-l-4 border-l-blue-300;
+    @apply overflow-x-auto border-l-4 border-l-blue-300;
   }
 
   .prose-lg blockquote p {
@@ -62,10 +62,10 @@
   }
 
   .prose-lg pre {
-    @apply bg-blue-50 shadow-sm;
+    @apply overflow-x-auto bg-blue-50 shadow-sm;
   }
 
   .prose-lg code {
-    @apply bg-blue-50;
+    @apply break-words bg-blue-50;
   }
 }
