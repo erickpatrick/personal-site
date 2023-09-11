@@ -64,4 +64,8 @@
   .prose-lg pre {
     @apply bg-slate-50 shadow-sm;
   }
+
+  .prose-lg code {
+    @apply bg-slate-50;
+  }
 }
