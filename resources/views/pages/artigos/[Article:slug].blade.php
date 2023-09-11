@@ -21,7 +21,7 @@ name('articles.view');
                 <small class="text-xl">{{ $article->categories }}</small>
             </div>
             <div class="py-16 lg:py-24">
-                <x-buk-markdown class="prose-lg md:prose-xl lg:prose-2xl" flavor="github">
+                <x-buk-markdown class="prose-lg md:prose-xl lg:prose-2xl" flavor="github" anchors>
                     {!! $article->content !!}
                 </x-buk-markdown>
             </div>
