@@ -55,6 +55,9 @@ $finalTitle = isset($title)
 
     <x-footer menu="{{ $menu }}" />
     @livewireScripts
+    <script>
+        window.addEventListener('livewire:navigated', () => window.scrollTo({ top: 0 }));
+    </script>
 </body>
 
 </html>
