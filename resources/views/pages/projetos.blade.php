@@ -1,3 +1,12 @@
+<?php
+
+use function Laravel\Folio\name;
+
+name('projects.list');
+
+?>
+
+
 @php
     use App\Models\Project;
 
