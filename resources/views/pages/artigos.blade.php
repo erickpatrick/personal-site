@@ -1,3 +1,11 @@
+<?php
+
+use function Laravel\Folio\name;
+
+name('articles.list');
+
+?>
+
 @php
     use App\Models\Article;
 
