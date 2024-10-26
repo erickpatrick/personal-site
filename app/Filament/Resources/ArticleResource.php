@@ -29,7 +29,7 @@ class ArticleResource extends Resource
                 Section::make('Main data')
                     ->schema([
                         Forms\Components\TextInput::make('title')
-                            ->live()
+                            ->live(onBlur: true)
                             ->afterStateUpdated(function (Set $set, ?string $state) {
                                 $set('slug', Str::slug($state));
                             })
