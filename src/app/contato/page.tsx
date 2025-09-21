@@ -48,7 +48,7 @@ export default function ContactsRoot() {
                 {contact.type}
               </span>
               <a
-                className="block text-2xl font-black"
+                className="block text-2xl font-black hover:underline hover:underline-offset-8 decoration-2 decoration-wavy decoration-blue-600"
                 href={contact.href}
                 target="_blank"
                 rel="noopener noreferrer"
