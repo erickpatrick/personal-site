@@ -1,13 +1,16 @@
 export default function PageTitle({
   title,
   description,
+  children,
 }: {
   title: string;
   description?: string;
+  children?: React.ReactNode;
 }) {
   return (
     <div className="max-w-5xl mx-auto mt-8 sm:mt-16 md:mt-32">
       <div className="text-center">
+        {children}
         <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black">
           {title}
         </h2>
