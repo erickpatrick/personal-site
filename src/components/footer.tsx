@@ -1,6 +1,15 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Footer() {
+  const pathname = usePathname();
+  const activeClass =
+    "p-2 hover:underline hover:underline-offset-8 decoration-2 decoration-wavy decoration-blue-600 font-bold underline underline-offset-8";
+  const innactiveClass =
+    "p-2 hover:underline hover:underline-offset-8 decoration-2 decoration-wavy decoration-blue-600";
+
   return (
     <footer className="bg-white" id="footer-menu">
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
@@ -10,7 +19,7 @@ export default function Footer() {
         >
           <div className="pb-6">
             <Link
-              className="p-2 hover:underline hover:underline-offset-8 decoration-2 decoration-wavy decoration-blue-600 font-bold underline underline-offset-8"
+              className={pathname === "/" ? activeClass : innactiveClass}
               href="/"
             >
               Inicial
@@ -18,7 +27,9 @@ export default function Footer() {
           </div>
           <div className="pb-6">
             <Link
-              className="p-2 hover:underline hover:underline-offset-8 decoration-2 decoration-wavy decoration-blue-600"
+              className={
+                pathname.includes("/artigos") ? activeClass : innactiveClass
+              }
               href="/artigos"
             >
               Artigos
@@ -26,7 +37,9 @@ export default function Footer() {
           </div>
           <div className="pb-6">
             <Link
-              className="p-2 hover:underline hover:underline-offset-8 decoration-2 decoration-wavy decoration-blue-600"
+              className={
+                pathname.includes("/projetos") ? activeClass : innactiveClass
+              }
               href="/projetos"
             >
               Projetos
@@ -34,7 +47,7 @@ export default function Footer() {
           </div>
           <div className="pb-6">
             <Link
-              className="p-2 hover:underline hover:underline-offset-8 decoration-2 decoration-wavy decoration-blue-600"
+              className={pathname === "/contato" ? activeClass : innactiveClass}
               href="/contato"
             >
               Contato
