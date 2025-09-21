@@ -10,12 +10,10 @@ export default function Home() {
       <div className="container mx-auto p-4 py-8">
         <Hero />
         <Divider />
-        <PersonalTraits />
-        <Divider />
       </div>
-      <LaterstPosts />
-      <Divider />
       <Projects />
+      <Divider />
+      <LaterstPosts />
     </>
   );
 }
