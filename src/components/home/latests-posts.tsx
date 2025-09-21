@@ -38,7 +38,7 @@ export default function LaterstPosts() {
             <div className="-my-12 divide-y divide-gray-900/10">
               <article className="py-6 relative flex flex-wrap gap-x-3">
                 <time
-                  datetime="2024-02-26 11:54:37"
+                  dateTime="2024-02-26 11:54:37"
                   className="block text-sm leading-6 text-gray-600"
                 >
                   Feb 26, 2024
@@ -60,7 +60,7 @@ export default function LaterstPosts() {
               </article>
               <article className="py-6 relative flex flex-wrap gap-x-3">
                 <time
-                  datetime="2023-09-25 12:48:55"
+                  dateTime="2023-09-25 12:48:55"
                   className="block text-sm leading-6 text-gray-600"
                 >
                   Sep 25, 2023
