@@ -33,3 +33,9 @@ export function getAllArticles(): Article[] {
     .sort((articleA, articleB) => (articleA.date > articleB.date ? -1 : 1));
   return articles;
 }
+
+export function getTopThreearticles(): Article[] {
+  return getAllArticles()
+    .sort((a, b) => (a > b ? -1 : 1))
+    .slice(0, 3);
+}
