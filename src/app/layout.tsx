@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/header";
@@ -56,6 +57,7 @@ export default function RootLayout({
         </div>
         <div className="container mx-auto p-4 py-8">{children}</div>
         <Footer />
+        <SpeedInsights />
       </body>
     </html>
   );
