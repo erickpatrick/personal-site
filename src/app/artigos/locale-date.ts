@@ -1,4 +1,4 @@
-export function toLocaleDateString(dateString: string, locale: string) {
+export function toLocaleDateString(dateString: string, locale: string): string {
   return new Date(dateString).toLocaleDateString(locale, {
     year: "numeric",
     month: "long",

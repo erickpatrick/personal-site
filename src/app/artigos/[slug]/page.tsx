@@ -13,7 +13,7 @@ export default async function ArticleViewRoot({
   const { slug } = await params;
   const article = getArticleBySlug(slug as string);
 
-  if (!article) {
+  if (!article.content) {
     return notFound();
   }
 

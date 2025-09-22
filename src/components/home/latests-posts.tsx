@@ -1,11 +1,11 @@
-import { getTopThreearticles } from "@/app/artigos/articles";
+import { Article, getTopThreearticles } from "@/app/artigos/articles";
 import { toLocaleDateString } from "@/app/artigos/locale-date";
 import Link from "next/link";
 
 export default function LaterstPosts() {
-  const latestArticles = getTopThreearticles();
-  const featuredArticle = latestArticles.slice(0, 1)[0];
-  const otherArticles = latestArticles.slice(1, 3);
+  const latestArticles: Article[] = getTopThreearticles();
+  const featuredArticle: Article = latestArticles.slice(0, 1)[0];
+  const otherArticles: Article[] = latestArticles.slice(1, 3);
 
   return (
     <div>

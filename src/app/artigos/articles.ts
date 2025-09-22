@@ -11,19 +11,24 @@ export type Article = {
   preview?: boolean;
 };
 
-const articlesDirectory = join(process.cwd(), "src/_posts");
+const articlesDirectory: string = join(process.cwd(), "src/_posts");
 
-export function getArticlesSlugs() {
+export function getArticlesSlugs(): string[] {
   return fs.readdirSync(articlesDirectory);
 }
 
-export function getArticleBySlug(slug: string) {
+export function getArticleBySlug(slug: string): Article {
   const realSlug = slug.replace(/\.md$/, "");
   const fullPath = join(articlesDirectory, `${realSlug}.md`);
-  const fileContents = fs.readFileSync(fullPath, "utf8");
-  const { data, content } = matter(fileContents);
 
-  return { ...data, slug: realSlug, content } as Article;
+  try {
+    const fileContents = fs.readFileSync(fullPath, "utf8");
+    const { data, content } = matter(fileContents);
+
+    return { ...data, slug: realSlug, content } as Article;
+  } catch (_error: unknown) {
+    return { content: "" } as Article;
+  }
 }
 
 export function getAllArticles(): Article[] {
