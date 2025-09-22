@@ -40,7 +40,7 @@ export default function ContactsRoot() {
 
       <Divider />
 
-      <div className="text-center grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
+      <div className="text-center grid grid-cols-1 sm:grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
         {contacts.map((contact, index) => (
           <div className="bg-blue-600/5 p-8 sm:p-10" key={`contact-${index}`}>
             <span className="inline-block">
