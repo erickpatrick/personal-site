@@ -1,0 +1,18 @@
+[
+  {
+    "name": "RPG do Mestre",
+    "top": "RPG do",
+    "bottom": "Mestre",
+    "description": "Meu blog sobre Roleplaying Game (RPG). Desde 2009, publico textos relacionados a RPG de mesa lá.",
+    "link": "https://www.rpgdomestre.com/",
+    "icon": "rpg.svg"
+  },
+  {
+    "name": "Criador de Cartas",
+    "top": "Criador de",
+    "bottom": "Cartas",
+    "description": "Para quem curte jogos de cartas e sempre quis criar suas próprias, esse é um App simples que ajuda exatamente nisso. Crie cartas customizadas para Magic the Gathering, Tarô, Pokémon, Pôquer, e outros jogos.",
+    "link": "https://cards.rpgdomestre.com/",
+    "icon": "photo.svg"
+  }
+]
