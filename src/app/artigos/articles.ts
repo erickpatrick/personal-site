@@ -26,7 +26,8 @@ export function getArticleBySlug(slug: string): Article {
     const { data, content } = matter(fileContents);
 
     return { ...data, slug: realSlug, content } as Article;
-  } catch (_error: unknown) {
+  } catch (error: unknown) {
+    console.log(error);
     return { content: "" } as Article;
   }
 }
