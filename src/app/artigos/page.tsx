@@ -3,6 +3,12 @@ import { getAllArticles } from "@/app/artigos/articles";
 import Link from "next/link";
 import { toLocaleDateString } from "@/app/artigos/locale-date";
 
+export const metadata = {
+  title: "Artigos",
+  description:
+    "Minhas opiniões, descobertas e aprendizados sobre design de sistemas, programação, e tópicos relacionados",
+};
+
 export default function ArticlesRoot() {
   const articles = getAllArticles();
   return (

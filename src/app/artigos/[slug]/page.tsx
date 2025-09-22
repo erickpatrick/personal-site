@@ -5,6 +5,19 @@ import { notFound } from "next/navigation";
 import markdownToHtml from "@/app/markdownToHtml";
 import ReadingTime from "../reading-time";
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const article = getArticleBySlug(slug as string);
+  return {
+    title: article.title,
+    description: article.excerpt,
+  };
+}
+
 export default async function ArticleViewRoot({
   params,
 }: {
