@@ -1,3 +1,4 @@
+import Copyright from "./copyright";
 import Navigation from "./navigation";
 
 export default function Footer() {
@@ -94,9 +95,7 @@ export default function Footer() {
             </svg>
           </a>
         </div>
-        <p className="mt-10 text-center text-xs leading-5 text-gray-500">
-          © 2025. Todos os direitos reservados.
-        </p>
+        <Copyright />
       </div>
     </footer>
   );
