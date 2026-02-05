@@ -16,6 +16,8 @@
   },
   "pages": {
     "home": {
+      "title": "Erick Patrick's Personal Site",
+      "description": "This is Erick Patrick's personal site, where he shares a bit of his experience and skills through articles, interviews, videos, and much more.",
       "projects": {
         "heading": "Some of the projects I've been working on"
       },

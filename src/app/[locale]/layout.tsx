@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 import "@/app/globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import { i18n, Locale } from "@/i18n-config";
+import { i18n, type Locale } from "@/i18n-config";
 
 export async function generateStaticParams() {
-  return i18n.locales.map((locale) => ({ lang: locale }));
+  return i18n.locales.map((locale: Locale) => ({ locale: locale }));
 }
 
 export const metadata: Metadata = {
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
 
 export default async function RootLayout(props: {
   children: React.ReactNode;
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: Locale | string }>;
 }) {
   const params = await props.params;
   const locale = params.locale;
@@ -61,10 +61,10 @@ export default async function RootLayout(props: {
     <html lang={locale}>
       <body>
         <div className="container mx-auto p-4 py-8">
-          <Header locale={locale} />
+          <Header locale={locale as Locale} />
         </div>
         <div className="container mx-auto p-4 py-8">{children}</div>
-        <Footer locale={locale} />
+        <Footer locale={locale as Locale} />
         <SpeedInsights />
       </body>
     </html>

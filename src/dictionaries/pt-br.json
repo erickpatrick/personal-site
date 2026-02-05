@@ -16,6 +16,8 @@
   },
   "pages": {
     "home": {
+      "title": "Site Pessoal de Erick Patrick",
+      "description": "Esse é o site pessoal de Erick Patrick, onde ele compartilha um pouco de sua experiência e habilidades através de artigos, entrevistas, vídeos e muito mais",
       "projects": {
         "heading": "Alguns dos projetos que tenho trabalhado"
       },
