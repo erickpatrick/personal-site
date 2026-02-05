@@ -5,17 +5,26 @@ import { notFound } from "next/navigation";
 import markdownToHtml from "@/app/markdownToHtml";
 import ReadingTime from "../reading-time";
 import { Locale } from "@/i18n-config";
+import { Metadata, ResolvingMetadata } from "next";
 
-export async function generateMetadata({
-  params,
-}: {
+type MetadataProps = {
   params: Promise<{ slug: string; locale: Locale }>;
-}) {
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+};
+
+export async function generateMetadata(
+  { params }: MetadataProps,
+  parent: ResolvingMetadata,
+): Promise<Metadata> {
   const { slug, locale } = await params;
   const article = getArticleBySlug(locale, slug as string);
+  let keywords = [...((await parent).keywords || [])];
+  keywords.push(...(article.keywords || []));
+
   return {
     title: article.title,
     description: article.excerpt,
+    keywords: keywords,
   };
 }
 

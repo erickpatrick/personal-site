@@ -9,6 +9,7 @@ export type Article = {
   date: string;
   excerpt: string;
   content: string;
+  keywords?: string[];
   preview?: boolean;
 };
 

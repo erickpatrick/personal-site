@@ -5,12 +5,29 @@ import { toLocaleDateString } from "@/app-locale/artigos/locale-date";
 import { Locale } from "@/i18n-config";
 import { getDictionary } from "@/get-dictionaries";
 import Divider from "@/components/home/divider";
+import { Metadata, ResolvingMetadata } from "next";
 
-export const metadata = {
-  title: "Artigos",
-  description:
-    "Minhas opiniões, descobertas e aprendizados sobre design de sistemas, programação, e tópicos relacionados",
+type MetadataProps = {
+  params: Promise<{ slug: string; locale: Locale }>;
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 };
+
+export async function generateMetadata(
+  { params }: MetadataProps,
+  parent: ResolvingMetadata,
+): Promise<Metadata> {
+  const parentMetadata = await parent;
+  const { locale } = await params;
+  const dictionary = await getDictionary(locale);
+  let keywords = [...(parentMetadata.keywords || [])];
+  keywords.push(...dictionary.pages.articles.keywords);
+
+  return {
+    title: dictionary.pages.articles.title,
+    description: dictionary.pages.articles.description,
+    keywords: keywords,
+  };
+}
 
 export default async function ArticlesRoot(props: {
   params: Promise<{ locale: Locale }>;

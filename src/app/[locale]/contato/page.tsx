@@ -2,12 +2,29 @@ import Divider from "@/components/home/divider";
 import PageTitle from "@/components/page-title";
 import { getDictionary } from "@/get-dictionaries";
 import { Locale } from "@/i18n-config";
+import { Metadata, ResolvingMetadata } from "next";
 
-export const metadata = {
-  title: "Contato",
-  description:
-    "Caso queira contatar-me, aqui estão algumas das formas mais rápidas que você pode usar para entrar em contato comigo a qualquer momento",
+type MetadataProps = {
+  params: Promise<{ slug: string; locale: Locale }>;
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 };
+
+export async function generateMetadata(
+  { params }: MetadataProps,
+  parent: ResolvingMetadata,
+): Promise<Metadata> {
+  const parentMetadata = await parent;
+  const { locale } = await params;
+  const dictionary = await getDictionary(locale);
+  let keywords = [...(parentMetadata.keywords || [])];
+  keywords.push(...dictionary.pages.contacts.keywords);
+
+  return {
+    title: dictionary.pages.contacts.title,
+    description: dictionary.pages.contacts.description,
+    keywords: keywords,
+  };
+}
 
 export default async function ContactsRoot(props: {
   params: Promise<{ locale: Locale }>;

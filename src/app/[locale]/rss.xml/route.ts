@@ -13,8 +13,8 @@ export async function GET(
   const rssFeed = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
- <title>${dictionary.pages.home.title}</title>
- <description>${dictionary.pages.home.description}</description>
+ <title>${dictionary.pages.metadata.title}</title>
+ <description>${dictionary.pages.metadata.description}</description>
  <link>https://www.erickpatrick.net${locale !== "pt-br" ? `/${locale}` : ""}</link>
  <copyright>Erick Patrick</copyright>
  ${articles.map((article) => {

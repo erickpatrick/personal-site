@@ -4,50 +4,44 @@ import "@/app/globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { i18n, type Locale } from "@/i18n-config";
+import { getDictionary } from "@/get-dictionaries";
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale: Locale) => ({ locale: locale }));
 }
 
-export const metadata: Metadata = {
-  title: {
-    template: "%s | Site pessoal de Erick Patrick",
-    default: "Site pessoal de Erick Patrick",
-  },
-  description:
-    "Esse é o site pessoal de Erick Patrick, onde ele compartilha um pouco de sua experiência e habilidades através de artigos, entrevistas, vídeos e muito mais",
-  metadataBase: new URL("https://www.ericpatrick.net"),
-  generator: "Custom",
-  applicationName: "Site Pessoal de Erick Patrick",
-  keywords: [
-    "Erick Patrick",
-    "Alvarenga Rocha",
-    "Arquiteto de Software",
-    "Desenvolvedor",
-    "Programador",
-    "Engenheiro de Software",
-    "Consultor",
-    "Palestrante",
-    "Instrutor",
-    "Mentor",
-    "Tecnologia",
-    "Software",
-    "Desenvolvimento de Software",
-    "Arquitetura de Software",
-    "Carreira em Tecnologia",
-    "Dicas de Programação",
-    "Tutoriais de Programação",
-    "Artigos Técnicos",
-  ],
-  authors: [{ name: "Erick Patrick" }],
-  creator: "Erick Patrick",
-  publisher: "Erick Patrick",
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
+type MetadataProps = {
+  params: Promise<{ locale: Locale | string }>;
 };
+
+export async function generateMetadata({
+  params,
+}: MetadataProps): Promise<Metadata> {
+  const { locale } = await params;
+  const dictionary = await getDictionary(locale as Locale);
+
+  return {
+    title: {
+      template: `%s | ${dictionary.pages.metadata.title}`,
+      default: dictionary.pages.metadata.title,
+    },
+    description: dictionary.pages.metadata.description,
+    metadataBase: new URL(
+      `https://www.ericpatrick.net${locale === "en" ? "" : `/${locale}`}`,
+    ),
+    generator: "Custom",
+    applicationName: dictionary.pages.metadata.title,
+    keywords: dictionary.pages.metadata.keywords,
+    authors: [{ name: "Erick Patrick" }],
+    creator: "Erick Patrick",
+    publisher: "Erick Patrick",
+    formatDetection: {
+      email: false,
+      address: false,
+      telephone: false,
+    },
+  };
+}
 
 export default async function RootLayout(props: {
   children: React.ReactNode;
