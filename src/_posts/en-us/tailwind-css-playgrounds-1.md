@@ -1,120 +1,126 @@
 ---
 title: "Tailwind CSS Playgrounds 1"
-excerpt: "O que tenho criado ou recriado com Tailwind CSS no play.tailwind.css, parte 1"
+excerpt: "What I have created or recreated using Tailwind on play.tailwind.css, part 1"
 date: "2025-09-30T00:00:00.000Z"
+keywords:
+  - tailwind
+  - css
+  - playground
+  - examples
+  - recreation
 ---
 
-Para continuar dentro das capacidades do CSS e do Tailwind, de tempos em tempos eu tento criar alguns componentes, alguns layouts e templates, ou mesmo recriar algo que vi em algum site e achei legal.
+To stay up-to-date with CSS and Tailwind capabilities, from time to time I try to create some components, layouts, and templates, or even recreate something I saw on a website and thought was cool.
 
-Vale lembrar que no play.tailwindcss.com apenas temos acesso a CSS (através das classes do Tailwind). Não há acesso a JavaScript. Então qualquer tipo de condicional ou animação, ou coisa do tipo é em puro CSS.
+It’s worth remembering that on play.tailwindcss.com we only have access to CSS (through Tailwind classes). There’s no access to JavaScript. So any kind of conditional logic, animation, or similar behavior is done purely with CSS.
 
-Sem mais delongas, eis alguns links dos últimos Tailwind Playgrounds que criei.
+Without further ado, here are some links to the latest Tailwind Playgrounds I’ve created.
 
-## Relacionados ao meu trabalho
+## Related to my work
 
-Apesar de ser gerente de equipe de desenvolvimento, ainda faço trabalho manuais (leia-se: programo). Como tenho muita informação da equipe do negócio e também tenho experiência com Design e Usabilidade, acabo criando esses playgrounds como se fossem MVFs (_Minimum Viable Features_) para partes de projetos que estou envolvido no momento.
+Even though I’m a development team manager, I still do hands-on work (that is: I code). Since I have a lot of information from the business team and also have experience with Design and Usability, I end up creating these playgrounds as if they were MVFs (_Minimum Viable Features_) for parts of projects I’m currently involved in.
 
-Nos últimos meses, fizemos uma reformulação de algumas áreas e componentes do site para acompanhar o lançamento de um grande produto.
+In recent months, we’ve redesigned some areas and components of the website to support the launch of a major product.
 
-### Página de espera com contador
+### Waiting page with counter
 
-[Link para o playground](https://play.tailwindcss.com/PQ52TLTGRe)
+[Link to the playground](https://play.tailwindcss.com/PQ52TLTGRe)
 
-Sabe quando você vai comprar ingressos de grandes eventos ou shows e muitas vezes você vê uma página dizendo "_você está na fila e tem 1209 pessoas na sua frente_"? O site do meu trabalho tem um serviço desses protegendo as páginas do nosso site.
+You know when you’re buying tickets for big events or concerts and you often see a page saying “_you’re in line and there are 1209 people ahead of you_”? The site where I work has a service like this protecting some of our pages.
 
-O design padrão do serviço é [bem simples e genérico](https://queue-it.com/media/0jyb5idn/general-queue-page-low-res.jpg) e com cores que não combinam com as da empresa. Criei essa sugestão para combinar mais com a imagem que a empresa quer passar, principalmente nesses grandes lançamentos. Ela também:
+The default design of the service is [very simple and generic](https://queue-it.com/media/0jyb5idn/general-queue-page-low-res.jpg), with colors that don’t match the company’s branding. I created this suggestion to better align with the image the company wants to convey, especially during major launches. It also:
 
-- usa as cores da empresa
-- fontes que combinam com as fontes do site final
-- apresentar menor quantidade de informação para o usuário
-- aponta a posição do usuário no processo
+- uses the company’s colors
+- uses fonts that match the final site’s fonts
+- presents a smaller amount of information to the user
+- shows the user’s position in the process
 
-### Página de revisão de compra
+### Purchase review page
 
-[Link para o playground](https://play.tailwindcss.com/eanSA8Awlz)
+[Link to the playground](https://play.tailwindcss.com/eanSA8Awlz)
 
-Quando estamos quase finalizando uma compra numa loja online, é comum termos um passo no caminho do checkout onde a loja mostra um sumário dos itens da compra, do seu endereço, do seu método de pagamento, dos descontos e de algumas regras que temos de marcar como lido.
+When we’re close to finishing a purchase in an online store, it’s common to have a step in the checkout flow where the store shows a summary of the items, your address, your payment method, discounts, and some rules that need to be acknowledged.
 
-A versão atual já tem inúmeros ajustes – principalmente para versões mobile e tablet – e outros componentes, mas não está muito longe do que é apresentado nesse playground.
+The current version already has several adjustments—especially for mobile and tablet—and other components, but it’s not very far from what’s shown in this playground.
 
-A principal diferença é que, essa revisão do que estava sendo comprado, qual método de pagamento escolhido, qual método de eentrega, descontos e valores finais a pagar, ficava numa barra lateral. Com a loja tendo usuários colocando 8-10 produtos num único carrinho, a barra lateral ficava muito extensa. O usuário tinha de rolar extensivamente para ver todas as informações. Também não era fácil identificar quais produtos estavam em pré-venda daqueles que estavam diponíveis para pronta-entrega.
+The main difference is that the review of what was being purchased, the chosen payment method, delivery method, discounts, and final amounts used to live in a sidebar. With users adding 8–10 products to a single cart, that sidebar became very long. The user had to scroll extensively to see all the information. It also wasn’t easy to identify which products were pre-orders versus those available for immediate delivery.
 
-Com os produtos nessas pequenas caixas e a clara separação entre produtos para pronta-entre e pré-venda, fica bem mais fácil para o usuário criar um entendimento sobre os produtos na compra. A parte do pagamento também está mais clara e fácil de achar, bem como os decontos aplicados. Recebemos elogios pela mudança nas redes sociais, apontando que ficou mais fácil e rápido o checkout.
+With products displayed in small boxes and a clear separation between ready-to-ship items and pre-orders, it becomes much easier for users to understand what’s in their cart. The payment section is also clearer and easier to find, as are the applied discounts. We received positive feedback on social media, pointing out that checkout became faster and easier.
 
-### Cards de produtos
+### Product cards
 
-[Link para o playground](https://play.tailwindcss.com/FuvAV6VahC)
+[Link to the playground](https://play.tailwindcss.com/FuvAV6VahC)
 
-Muito comum em lojas virtuais, os cards de produtos são componentes usados para apresentar as mais variadas informações, desde a imagem, título, e preço, a outros pontos importantos, como tamanho e cores (para vestuário), etc.
+Very common in online stores, product cards are components used to present a wide range of information, from image, title, and price to other important details like sizes and colors (for apparel), etc.
 
-O que está no site hoje também é uma versão levemente diferente, até para acomodar outros elementos que temos. Alguns dos simbólos e faixas apresentadas aqui estão levemente diferentes para combinar com o que é apresentado em sites de outras regiões da empresa.
+What’s currently on the site is also a slightly different version, mainly to accommodate other elements we have. Some of the symbols and badges shown here are slightly different to match what’s displayed on sites in other regions of the company.
 
-Um desafio que tivemos foi lidar com a quantidade de informações que temos de apresentar para o usuário em tais cards. Aqui na Europa, devido a legislação local, somos obrigados a colocar várias informações sempre que um desses cards é apresentado.
+One challenge we faced was dealing with the amount of information we need to show on these cards. Here in Europe, due to local legislation, we’re required to display several pieces of information whenever one of these cards appears.
 
-Veja o caso do jogo _The Legenda of Zelda: Echoes of Wisdom + amiibo de Zelda_. Nele temos a classificação indicatória e na versão atual também apresentamos certos classificadores (violência, linguagem, sexo, etc), o que toma mais espaço ainda no card. No caso de camisetas, temos de colocar todos os tamanhos disponíveis, e em alguns casos teríamos mais de 10 (crianças: 92, 104, 116, 128, 140, 152; adultos: S, M, L, XL, XXL).
+Take the game _The Legend of Zelda: Echoes of Wisdom + Zelda amiibo_, for example. It includes an age rating, and in the current version we also show certain content descriptors (violence, language, sex, etc.), which takes up even more space on the card. In the case of T-shirts, we have to list all available sizes, and in some cases there can be more than 10 (kids: 92, 104, 116, 128, 140, 152; adults: S, M, L, XL, XXL).
 
-Para evitar essa situação e diminuir esse exceço de informação, temos uma lógica para verificar se tem tamanhos de criaça e adulto. Se tiver tamanhos só de um ou do outro, mostros todos. Se tiver dos dois, mostramos "criança, S, M, L, XL, XXL".
+To avoid this situation and reduce information overload, we use logic to check whether there are kids’ sizes and adult sizes. If there are sizes from only one group, we show them all. If there are both, we show “kids, S, M, L, XL, XXL”.
 
-### Menu de navegação principal
+### Main navigation menu
 
-[Link para o playground](https://play.tailwindcss.com/W1f9BNENuE)
+[Link to the playground](https://play.tailwindcss.com/W1f9BNENuE)
 
-Menus de navegação principal são um dos componentes mais importantes de qualquer site. Não seria diferente com o da empresa em que trabalho. O menu de navegação já era do estilo _mega menu_ mas tivemos de fazer alguns ajustes por conta do grande lançamento que mencionei.
+Main navigation menus are among the most important components of any website. That’s also true for the company I work for. The navigation menu was already a _mega menu_, but we had to make some adjustments due to the major launch I mentioned earlier.
 
-Por conta desse novo produto, tivemos de ajustar a hierarquia em um dos menus para que ele possa tem _tabs_ dentro do _mega menu_ e assim poder mostrar os links daquela _tab_.
+Because of this new product, we had to adjust the hierarchy in one of the menus so it could have _tabs_ inside the _mega menu_, allowing us to display the links for each _tab_.
 
-O destaque vai para a existência das _tabs_ e da possibilidade de troca de conteúdo das duas sem usar JavaScript. Apenas com CSS/Tailwind. Esse elemento em questão ainda existe no site em produção, o que ajudou a diminuir várias linhas de JavaScript customizado.
+The highlight here is the presence of _tabs_ and the ability to switch content between them without using JavaScript—only CSS/Tailwind. This element still exists on the production site, which helped reduce several lines of custom JavaScript.
 
-Além de usar a funcionalidade de agrupamento, `group/` (linha 04, por exemplo), do Tailwind, também utilizamos dois elementos `checkbox`, um para cada _tab_ escondida. Neles, utilizamos a funcionalidade de parceiros, `peer/` (linha 27, por exemplo), do Tailwind para toda vez que um `checkbox` fosse selecionado, o conteúdo "parceiro" que complementa aquele `checkbox` aparecesse.
+In addition to using Tailwind’s grouping functionality, `group/` (line 04, for example), we also used two `checkbox` elements, one for each hidden _tab_. We then used Tailwind’s peer functionality, `peer/` (line 27, for example), so that whenever a `checkbox` is selected, its corresponding “peer” content appears.
 
-Os títulos das _tabs_ são os elementos `label` delas e ao serem clicados, ativam os respectivos `checkbox` e seus parceiros. _Tabs_ dinâmicas, sem JavaScript!
+The _tab_ titles are their `label` elements, and when clicked, they activate the respective `checkbox` and its peer. Dynamic _tabs_, without JavaScript!
 
-### Visualização de métodos de pagamentos disponíveis
+### Available payment methods visualization
 
-[Link para o playground](https://play.tailwindcss.com/Tp7wOczyzA)
+[Link to the playground](https://play.tailwindcss.com/Tp7wOczyzA)
 
-Em uma tentativa de melhorar a visualização dos métodos de pagamento disponíveis, tomei a iniciativa de criar versões em formato de cartão de crédito. Sabendo que há outros métodos de pagamento que não são cartões de crédito, também criei uma versão em mini caixas.
+In an attempt to improve how available payment methods are displayed, I took the initiative to create credit-card-style versions. Knowing that there are other payment methods besides credit cards, I also created a version using small boxes.
 
-O maior desafio é colocar a mínima quantidade de informação necessária para saber que aquele método de pagamento é do usuário e diferencia qual é o método atual selecionado e quais outros podem ser escolhidos. Pessoalmente, prefiro a versão de mini caixas (as que estão na parte de baixo do playground). Elas ocupam menos espaço, é fácil identificar qual ação deve ser tomada para marcar algum outro meio de pagamento como principal e não tem informação desnecessária (como títulos, caracteres representando valores "escondidos", etc).
+The biggest challenge is showing the minimum amount of information needed to know that a payment method belongs to the user, while clearly distinguishing which method is currently selected and which others can be chosen. Personally, I prefer the small-box version (the ones at the bottom of the playground). They take up less space, make it easy to identify which action to take to set another payment method as primary, and avoid unnecessary information (such as titles, masked value characters, etc.).
 
-Atualmente, ainda está em discussão se e quando esse componente vai para o ar. Temos outros projetos mais importantes que temos de terminar e, por enquanto, esse componente está bem no final da linha de prioridades.
+At the moment, it’s still being discussed whether and when this component will go live. We have other, more important projects to finish, and for now this component sits at the very end of the priority list.
 
-## De sites pré-existentes
+## From pre-existing sites
 
-### Menu de Navegação do DotCMS
+### DotCMS navigation menu
 
-[Link para o playground](https://play.tailwindcss.com/WkzJ3TuFu4)
+[Link to the playground](https://play.tailwindcss.com/WkzJ3TuFu4)
 
-Como parte do meu trabalho, tenho que avaliar soluções que possam trazer alguma vantage para nosso ambiente, mesmo que já tenhamos uma solução que proveja tudo que precisamos no momento. Ao avaliar alternativas para _CMSes Headless_, visitei o site do DotCMS e achei o menu de navegação deles bem interessante.
+As part of my job, I have to evaluate solutions that might bring some advantage to our environment, even if we already have a solution that provides everything we currently need. While evaluating alternatives for _headless CMSs_, I visited the DotCMS website and found their navigation menu quite interesting.
 
-Hoje em dia, o menu de navegação ainda usa um estilo parecido com o que implementei. Porém, sem a mudança de conteúdo ao passar o ponteiro do mouse sobre as opções de cada um dos itens. Acredito que mudaram porque antes a quantidade de itens em cada menu era menor e tinha uma categorização diferente. O menu também mantém diferentes níveis de sobreposição `hover` a depender do submenu e do elemento desse último que esteja selecionado.
+Nowadays, their navigation menu still uses a style similar to what I implemented, but without changing content when hovering over each item’s options. I believe they changed it because the number of items in each menu used to be smaller and categorized differently. The menu also maintains different levels of `hover` overlap depending on the submenu and the element within it that’s selected.
 
-Além disso, analisando o código JavaScript que eles usavam obter o mesmo resultado, era visível que tinha certa complexidade. Essa complexidade, invariavelmente, acabava tornando-se muito código JavaScript enviado para o navegador/dispositivo do usuário, e sabemos que isso prejudica a experiência geral.
+Additionally, when analyzing the JavaScript code they used to achieve the same result, it was clear there was a certain level of complexity. That complexity inevitably resulted in a lot of JavaScript being sent to the user’s browser/device, which we know negatively impacts the overall experience.
 
-Falando sobre a técnica em si, usei vários agrupamentos com nomeação customizada, um dentro do outro. Também utilizei `group-has-[]` para mostrar ou ocultar o conteúdo auxiliar, dependendo da subseção que o mouse está sobreposto.
+Regarding the technique itself, I used multiple groupings with custom naming, nested within each other. I also used `group-has-[]` to show or hide auxiliary content depending on which subsection the mouse is hovering over.
 
-Outra técnica aplicada foi a de usar uma regra direto na propriedade `style` utilizando variáveis do próprio Tailwind. Se você prestar atenção, há alguns `style` da seguinte forma `style="width: calc(100% - (var(--spacing) * 82))"`. Isso permite que ajustemos/calculemos a largura de um elemento utilizando a variável `--spacing` como parte do cálculo. Essa utilização permite que a subseção se ajuste de acordo com o valor de `--spacing` que é ajustado dependendo do tamanho atual do navegador.
+Another technique applied was using a rule directly in the `style` property with Tailwind variables. If you look closely, there are some `style` attributes like `style="width: calc(100% - (var(--spacing) * 82))"`. This allows us to adjust/calculate an element’s width using the `--spacing` variable as part of the calculation. This approach lets the subsection adapt according to the value of `--spacing`, which changes depending on the current browser size.
 
-### Card de imagem para site de hotelaria
+### Image card for a hospitality website
 
-[Link para o playground](https://play.tailwindcss.com/K37lwJ6yVN)
+[Link to the playground](https://play.tailwindcss.com/K37lwJ6yVN)
 
-Eu costumo navegar bastante pelo [Dribbble](https://dribbble.com). Embora esteja repleto de publicações muito semelhantes entre si, ainda acho um lugar interessante para achar possíveis designs que posso tentar implementar. Esse playground (e o próximo) vieram dessas "incurções" que costumo fazer por lá.
+I often browse [Dribbble](https://dribbble.com). Even though it’s full of very similar posts, I still find it a good place to discover designs I can try to implement. This playground (and the next one) came from those “incursions” I usually make there.
 
-O elemento, embora simples, permitiu eu adicionar alguns comportamentos que geralmente não estão disponíveis uma imagem estática. A imagem original era com as estrelas sempre visíveis. Eu já escolhi implementar o comportamento de apenas mostrá-las quando o usuário passa o mouse sobre o card da imagem.
+The element, although simple, allowed me to add some behaviors that usually aren’t available in a static image. In the original image, the stars were always visible. I chose to implement behavior where they only appear when the user hovers over the image card.
 
-Outro comportamento que adicionei foi a animação no ícone de "_like_" (o coração no canto direito superior). Quando você deixa o mouse parado sobre esse elemento em específico, o coração fica pulsando, como se fosse um coração realmente batendo. Algo simples, mas que para aqueles que percebem, é algo que chamará a atenção e colocará um pequeno sorriso no dia delas.
+Another behavior I added was an animation to the “like” icon (the heart in the top-right corner). When you keep the mouse over that specific element, the heart starts pulsing, as if it were actually beating. Something simple, but for those who notice it, it’s the kind of detail that catches attention and puts a small smile on their day.
 
-Aqui, também usei a funcionalidade de agrupamento, `group/` (linha 17), para obter o efeito de esconder e mostrar as estrelas. Também utilizei `translate` e `animation` através das classes `duration-150 ease-in`, para que a entrada e saída das estrelas fossem bem leve e um pouco mais lenta. Nada no nível de complexidade dos menus de navegação apresentados acima.
+Here, I also used Tailwind’s grouping functionality, `group/` (line 17), to achieve the hide-and-show effect for the stars. I also used `translate` and `animation` via the `duration-150 ease-in` classes so the stars’ entrance and exit would feel smooth and slightly slower. Nothing as complex as the navigation menus shown above.
 
-### Efeito de plano de fundo de card
+### Card background effect
 
-[Link para o playground](https://play.tailwindcss.com/ggl2GcD15x)
+[Link to the playground](https://play.tailwindcss.com/ggl2GcD15x)
 
-Esse card em si não é complicado de se criar com CSS. Basta utilizar Grids e bordas de forma ajustada e conseguimos fazê-lo. O efeito do plano de fundo, de borda de card duplicada e menor, é muito interessante.
+This card itself isn’t complicated to create with CSS. By using grids and borders appropriately, we can build it. The background effect—with a duplicated, smaller card border—is very interesting.
 
-Antigamente, na época das tabelas, dos _floats_ e outras abordagens, eu teria recriado esse efeito com imagens. Há um tempo, já não precisamos mais utilizar desse possibilidade. Basta saber usar `position: absolute` e `z-index` de forma ajustada, que conseguimos o esse efeito.
+In the past, back in the days of tables, _floats_, and other approaches, I would have recreated this effect using images. For some time now, that’s no longer necessary. By properly using `position: absolute` and `z-index`, we can achieve this effect.
 
-A imagem que vi originalmente apenas mostrava o efeito à esquerda e direita. Eu aproveitei e criei o efeito também para de forma vertical. A versão móvel também esta bem ajustada (desde os 320px ou maior).
+The image I originally saw only showed the effect on the left and right sides. I took the opportunity to also create the effect vertically. The mobile version is also well adjusted (from 320px and up).
 
-Como podemos ver, não é algo complicado de fazer, mas o efeito com as bordas mais largas, uma conectando na outra, criando esse efeito de profundidade, é super legal.
+As we can see, it’s not something complicated to do, but the effect of thicker borders, one connecting to another, creating this sense of depth, is really cool.
