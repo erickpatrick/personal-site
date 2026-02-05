@@ -18,7 +18,8 @@
     "metadata": {
       "title": "Site Pessoal de Erick Patrick",
       "description": "Esse é o site pessoal de Erick Patrick, onde ele compartilha um pouco de sua experiência e habilidades através de artigos, entrevistas, vídeos e muito mais",
-      "keywords": ["Erick Patrick", "Alvarenga Rocha"]
+      "keywords": ["Erick Patrick", "Alvarenga Rocha"],
+      "copyright": "Todos os direitos reservados."
     },
     "home": {
       "projects": {

@@ -18,7 +18,8 @@
     "metadata": {
       "title": "Erick Patrick's Personal Site",
       "description": "This is Erick Patrick's personal site, where he shares a bit of his experience and skills through articles, interviews, videos, and much more.",
-      "keywords": ["Erick Patrick", "Alvarenga Rocha"]
+      "keywords": ["Erick Patrick", "Alvarenga Rocha"],
+      "copyright": "All rights reserved."
     },
     "home": {
       "projects": {
