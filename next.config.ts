@@ -5,22 +5,42 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/blog/:path*",
-        destination: "/artigos/:path*",
+        destination: "/en-us/artigos/:path*",
         permanent: true,
       },
       {
         source: "/blog",
-        destination: "/artigos",
+        destination: "/en-us/artigos",
         permanent: true,
       },
       {
         source: "/pages/contact",
-        destination: "/contato",
+        destination: "/en-us/contact",
         permanent: true,
       },
       {
         source: "/contact",
-        destination: "/contato",
+        destination: "/en-us/contato",
+        permanent: true,
+      },
+      {
+        source: "/artigos",
+        destination: "/pt-br/artigos",
+        permanent: true,
+      },
+      {
+        source: "/contato",
+        destination: "/pt-br/contato",
+        permanent: true,
+      },
+      {
+        source: "/projetos",
+        destination: "/pt-br/projetos",
+        permanent: true,
+      },
+      {
+        source: "/sobre",
+        destination: "/pt-br/sobre",
         permanent: true,
       },
     ];

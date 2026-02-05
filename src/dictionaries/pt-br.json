@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "home": "Inicial",
+    "projects": "Projetos",
+    "blog": "Artigos",
+    "about": "Sobre",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "É um prazer receber sua visita",
+    "subtitle": {
+      "part1": "Esse é o ",
+      "part2": "meu",
+      "part3": " pequeno espaço aqui na Web"
+    }
+  },
+  "pages": {
+    "metadata": {
+      "title": "Site Pessoal de Erick Patrick",
+      "description": "Esse é o site pessoal de Erick Patrick, onde ele compartilha um pouco de sua experiência e habilidades através de artigos, entrevistas, vídeos e muito mais",
+      "keywords": ["Erick Patrick", "Alvarenga Rocha"],
+      "copyright": "Todos os direitos reservados."
+    },
+    "home": {
+      "projects": {
+        "heading": "Alguns dos projetos que tenho trabalhado"
+      },
+      "articles": {
+        "heading": "Últimos artigos que escrevi",
+        "continue": "Continue lendo"
+      },
+      "keywords": [
+        "Arcquiteto de Software",
+        "Desenvolvedor",
+        "Programador",
+        "Engenheiro de Software",
+        "Consultor",
+        "Palestrante",
+        "Instrutor",
+        "Mentor",
+        "Tecnologia",
+        "Software",
+        "Desenvolvimento Software",
+        "Arquitetura de Software",
+        "Carreira em Tecnologia",
+        "Dicas de Desenvolvimento",
+        "Tutoriais de Desenvolvimento",
+        "Artigos Técnicos"
+      ]
+    },
+    "articles": {
+      "title": "Artigos",
+      "description": "Minhas opiniões, descobertas e aprendizados sobre design de sistemas, programação, e tópicos relacionados",
+      "readingTime": "min de leitura",
+      "keywords": [
+        "Artigos",
+        "Blog",
+        "Blog de desenvolvimento",
+        "Artigos téncnicos",
+        "Blog de programação",
+        "Blog de arquitetura de software",
+        "Blog de design de sistemas",
+        "Blog de engenharia de software",
+        "Blog de desenvolvimento de software",
+        "Blog de desenvolvimento web",
+        "Blog de desenvolvimento de aplicações"
+      ]
+    },
+    "about": {
+      "title": "Sobre mim",
+      "description": "Saiba mais sobre minha trajetória, habilidades e experiências.",
+      "keywords": [
+        "Sobre mim",
+        "Biografia",
+        "Trajetória",
+        "Habilidades",
+        "Experiências",
+        "Carreira",
+        "Formação acadêmica",
+        "Certificações",
+        "Prêmios"
+      ]
+    },
+    "contacts": {
+      "title": "Contato",
+      "description": "Caso queira contatar-me, aqui estão algumas das formas mais rápidas que você pode usar para entrar em contato comigo a qualquer momento",
+      "keywords": [
+        "Contato",
+        "Formas de contato",
+        "Redes sociais",
+        "Email",
+        "LinkedIn",
+        "Twitter",
+        "GitHub"
+      ]
+    },
+    "projects": {
+      "title": "Projetos",
+      "description": "Alguns projetos paralelos em que tenho trabalhado: RPG de Mesa, Vídeo Games, YouTube, e muito mais...",
+      "keywords": [
+        "Projetos",
+        "Projetos paralelos",
+        "Bicos",
+        "Freelances",
+        "Empreendedorismo",
+        "RPG de mesa",
+        "Vídeo Games",
+        "YouTube"
+      ]
+    }
+  }
+}

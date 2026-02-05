@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "blog": "Blog",
+    "about": "About Me",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "It's a pleasure to welcome you",
+    "subtitle": {
+      "part1": "This is ",
+      "part2": "my",
+      "part3": " little space here on the Web"
+    }
+  },
+  "pages": {
+    "metadata": {
+      "title": "Erick Patrick's Personal Site",
+      "description": "This is Erick Patrick's personal site, where he shares a bit of his experience and skills through articles, interviews, videos, and much more.",
+      "keywords": ["Erick Patrick", "Alvarenga Rocha"],
+      "copyright": "All rights reserved."
+    },
+    "home": {
+      "projects": {
+        "heading": "Some of the projects I've been working on"
+      },
+      "articles": {
+        "heading": "Latest blog posts I've written",
+        "continue": "Continue reading"
+      },
+      "keywords": [
+        "Software Architect",
+        "Developer",
+        "Programmer",
+        "Software Engineer",
+        "Consultant",
+        "Speaker",
+        "Instructor",
+        "Mentor",
+        "Technology",
+        "Software",
+        "Software Development",
+        "Software Architecture",
+        "Technology Career",
+        "Development Tips",
+        "Development Tutorials",
+        "Tech articles"
+      ]
+    },
+    "articles": {
+      "title": "Blog posts",
+      "description": "My thoughts, discoveries, and learnings about system design, programming, and related topics",
+      "readingTime": "-minute reading",
+      "keywords": [
+        "Articles",
+        "Blog",
+        "Development Blog",
+        "Tech articles",
+        "Programming Blog",
+        "Software Architecture Blog",
+        "System Design Blog",
+        "Software Engineering Blog",
+        "Software Development Blog",
+        "Web Development Blog",
+        "Application Development Blog"
+      ]
+    },
+    "about": {
+      "title": "About Me",
+      "description": "Learn more about my journey, skills, and experiences.",
+      "keywords": [
+        "About Me",
+        "Biography",
+        "Trajectory",
+        "Skills",
+        "Experiences",
+        "Carreer",
+        "Academic Background",
+        "Certifications",
+        "Prizes"
+      ]
+    },
+    "contacts": {
+      "title": "Contact",
+      "description": "If you want to get in touch with me, here are some of the quickest ways you can reach out to me at any time.",
+      "keywords": [
+        "Contact",
+        "Social Media",
+        "Email",
+        "LinkedIn",
+        "Twitter",
+        "GitHub"
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "A listing of some side projects I've been working on: Tabletop RPG, Video Games, YouTube, and more...",
+      "keywords": [
+        "Side Projects",
+        "Side Gigs",
+        "Freelancing",
+        "Entrepreneurship",
+        "Solopreneurship",
+        "Solopreneur",
+        "Tabletop RPG",
+        "Video Games",
+        "YouTube"
+      ]
+    }
+  }
+}

@@ -1,11 +1,14 @@
+import { Locale } from "@/i18n-config";
 import Copyright from "./copyright";
 import Navigation from "./navigation";
+import { getDictionary } from "@/get-dictionaries";
 
-export default function Footer() {
+export default async function Footer({ locale }: { locale: Locale }) {
+  const dictionary = await getDictionary(locale);
   return (
     <footer className="bg-white" id="footer-menu">
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
-        <Navigation className="max-auto" />
+        <Navigation className="max-auto" locale={locale} />
         <div className="mt-10 flex justify-center space-x-10">
           <a
             href="https://instagram.com/itsmeerickpatrick"
@@ -95,7 +98,7 @@ export default function Footer() {
             </svg>
           </a>
         </div>
-        <Copyright />
+        <Copyright copy={dictionary.pages.metadata.copyright} />
       </div>
     </footer>
   );
