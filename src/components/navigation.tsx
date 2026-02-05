@@ -1,6 +1,7 @@
 import { getDictionary } from "@/get-dictionaries";
 import { Locale } from "@/i18n-config";
 import NavigationLink from "./navigation-link";
+import LanguageSwitcher from "./language-switcher";
 
 export default async function Navigation({
   className,
@@ -47,6 +48,7 @@ export default async function Navigation({
         href={`/${locale}/contato`}
         text={dictionary.nav.contact}
       />
+      <LanguageSwitcher locale={locale} />
     </nav>
   );
 }
