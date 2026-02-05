@@ -1,30 +1,30 @@
 ---
-title: "Próximo desafio: ecossistema Elixir, OTP, Phoenix e LiveView"
-excerpt: 'Meu próximo desafio de progrador é entrar no mundo da programação funcional. Escolhi a linguagem de programação Elixir por ser "brasileira" e por já ter "brincado" um pouco com ela'
+title: "Next challenge: Elixir, OTP, Phoenix and Liveview ecosystem"
+excerpt: "My next challenge as a developer is to get into the world of functional programming, for real. I've chosen the Elixir lang as it's a language created by a Brazilian developer and because I've already learn a little bit about it"
 date: "2024-02-26T00:00:00.000Z"
 ---
 
-Nessas últimas semanas, tenho me perguntado bastante qual será o próximo passo que saciará minha vontade de aprender. Além de tentar terminar [meus projetos solo em andamento](https://www.erickpatrick.net/projetos) – que me ajudaram com meu lado "empreendedor" – o lado programador que eu aprenda algo mais.
+These last few weeks, I've been asking myself what's the next thing that will quench my programmer thirst. Beyond simply trying [to finish my solo projects](https://www.erickpatrick.net/en-us/projetos) – they help a lot my "enterpreneur" side – the programmer side wants me to learn something new.
 
-Já venho lendo bastante sobre Arquitetura de Software e continuarei esse caminho, já que esse conhecimento alimenta outra faceta minha, a de arquitetura e engenharia. Só que decidi que investirei também em aprender, aprofundadamente, mais uma linguagem de programação, seu ambiente e suas ferramentas.
+I've been reading a lot on Software Architecture and will continue to do so because it helps with another of my itches: engineering and architecture. This time I've also decided to learn, deeply, another programming language, its ecosystem, and tools.
 
-Como o título do artigo deixa claro, meu próximo desafio de programador é aprofundar meus conhecimentos na linguagem de programação Elixir, no seu ecossistema (OTP e por tabela Erlang), em Phoenix com LiveView para web.
+As the title tells, my next challenge is to deepen my knowledge on the Elixir lang, its ecosystem (OTP & Erland as well), using Phoenix and LiveView para Web.
 
-Sinto que já sei o básico da linguagem, fiz alguns _code katas_, criei alguns scripts CLI, e acredito que já é o suficiente para dar o próximo passo: criar uma aplicação web e colocá-la em produção.
+I believe I already know the basics of the language, I've worked through a few _code katas_, and created some CLI scripts. With this knowledge I think it's already enough to go the next step and start building a web apllication and deploy it o production.
 
-Após ver inúmeras vezes que Elixir é uma linguagem capaz de muitos feitos com poucos recursos, fiquei cada vez mais intrigado e curioso em aprender o ecossistema.
+After seeing some many of the capabilities of the Elix lang with just a small amount of resources compared to other langs, it really got me hooked up.
 
-Eis alguns exemplos de como:
+Some examples of the capabilities:
 
-- [Discord usando Elixir para 5 milhões de usuários concorrentes (em inglês)](https://discord.com/blog/how-discord-scaled-elixir-to-5-000-000-concurrent-users)
-- [Comunicação em tempo real de grande escola com Elixir na Discord (em inglês)](https://elixir-lang.org/blog/2020/10/08/real-time-communication-at-scale-with-elixir-at-discord/)
-- [Saindo de $erverless para Elixir (em inglês)](https://medium.com/coryodaniel/from-erverless-to-elixir-48752db4d7bc)
-- [Elixir ajuda Pinterest a economizar US$2 milhões por ano](https://paraxial.io/blog/elixir-savings)
+- [How Discord scaled Elixit to 5.000.000 concurrent](https://discord.com/blog/how-discord-scaled-elixir-to-5-000-000-concurrent-users)
+- [Real time communication at scale with Elixit at Discord](https://elixir-lang.org/blog/2020/10/08/real-time-communication-at-scale-with-elixir-at-discord/)
+- [From serverless to Elixir](https://medium.com/coryodaniel/from-erverless-to-elixir-48752db4d7bc)
+- [Elixir Saves Pinterest $2 Million a Year In Server Costs](https://paraxial.io/blog/elixir-savings)
 
-Saber que Elixir é uma linguagem criada por um brasileiro (José Valim) é mais um diferencial para entrar de cabeça nessa jornada. Eu até já tenho algumas ideias do que posso tentar criar para colocar em prática meus conhecimentos atuais e para aprender mais.
+Being a programming language created by a Brazilian, José Valim, it's yet another distinguishing feature for me to go headfirst into this journey. I even have some ideas to build and put my knowledge into practice and learn even more.
 
-Contudo, minha primeira ideia é criar uma versão alternativa do meu painel de controle desse site, já que é um projeto simples, mas mais complexo que os outros que já fiz com Elixir, e com escopo delimitado.
+However, my first idea is to create an alternate version of the admin panel of this website, as it's a simple project but more complex than others I did in Elixir, and with a proper, delimited scope.
 
-Ter um escopo curto e bem delimitado, que eu já conheço bem por ter trabalhar e retrabalhar ao longo dos anos, ajudará a dar uma perspectiva melhor sobre Elixir e as ferramentas que a acompanham.
+With a proper, delimited scope, which I know pretty well for working for years on it will give me a better perspective on Elixit and its tools.
 
-Desejem-me sorte nesse novo desafio. Quem quiser acompanhar minha evolução, só me seguir no [~~Twitter~~ X](https://twitter.com/erickpatrick) e lá no [GitHub](https://github.com/erickpatrick).
+Wish me luck in this new challenge. Those who wish to follow my evolution, just follow me on [~~Twitter~~ X](https://twitter.com/erickpatrick) and on GitHub [GitHub](https://github.com/erickpatrick).
