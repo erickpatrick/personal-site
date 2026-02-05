@@ -1,30 +1,30 @@
 ---
-title: "Segurando o ímpeto de programar as soluções eu mesmo"
-excerpt: "Como lidar com a vontade de resolver os problemas por conta própria enquanto somos gerentes de software que cresceram na carreira?"
+title: "Holding myself to not program things on my own"
+excerpt: "How to deal with the itch to solve problems yourself when you're a developer grown into an engineer manager?"
 date: "2024-10-26T00:00:00.000Z"
 ---
 
-Atualmente, meu cargo é de Gerente de Desenvolvimento de eCommerce. Antes disso, nessa mesma empresa em que trabalho, já passei por outros cargos:
+I'm currently a eCommerce Engineer Manager. Before that, I was:
 
-- Arquiteto de Sistemas Online & eCommerce;
-- Líder Técnico de Desenvolvimento de eCommerce;
+- Architect of online systems & eCommerce;
+- Team lead eCommerce Development;
 
-Em ambos os cargos, apesar de já exercer uma posição de liderança na equipe, ainda mantinha a maioria do tempo em que criava soluções por conta própria. Avaliava problemas, criava MVPs, avaliava conceitos e ideias, testava e revisava código.
+Both positions, despite being a leadership position of sorts in the team, I still used to mostly focus on solving things myself. Evaluting problems, MVP creation, ideas and concept evaluation, testing and code review.
 
-Cerca de 70% do meu tempo era assim. Os outros 30% estavam em reuniões com equipes diversas, registrando as funcionalidades e decisões, organizando as necessidades da equipe.
+About 70% of my time was like that. The remaining 30% took me to various meetings, writing decisions and requeriments, organizing the team's needs.
 
-Hoje, meu trabalho é bem diferente disso. Com o meu crescimento na empresa, que me elevou à posição de gerente, tive que aprender a lidar com a vontade de resolver problemas por conta própria.
+Today, my work is way different from that. Going up the ladder in the company, bringing me to the engineering manager position, I had to learn to stop instead of going hands-on on all the problems myself.
 
-O que antes era 70% com mãos na massa e 30% com atividades gerenciais, os números inverteram e a distância aumentou. Acredito que a divisão esteja, agora, em 90–10. Eventualmente, programo e faço revisões de código. Isso ocorre somente em emergências, uma vez que sou o primeiro ponto de contato.
+What was previously 70-30% for development-management, today the numbers are reverted and the gap grew. I believe it's around 90-10 for management-development. Development, specially programming, is mostly in emergencies as I'm the first point of contact.
 
-Diante de tudo isso, é bastante difícil manter essa vontade, enquanto vejo meus colegas de trabalho demorarem a apresentar soluções, ou até mesmo soluções “alternativas” para o que estamos enfrentando.
+Due to that, it's quite hard to hold myself while I see my colleagues taking ages to bring solutions or even "alternatives" to what we're facing.
 
-Ao mesmo tempo que tenho que manter essa vontade, preciso guiá-los para uma solução adequada para o problema, no prazo estimado, sem obrigar a seguir a solução que pensei. Afinal de contas, eles estão na equipe porque decidi contratá-los ou dei aval às suas contratações.
+At the same time, I need to guide them to the proper solution, in the correct timeline, without forcing them to come up with the solution I had in mind. In the end, I gave the "thumbs-up" to hire them, right?
 
-Preciso demonstrar que acredito nas suas decisões e que, assim como eu, buscam o melhor para a equipe, mesmo quando penso que poderíamos ter uma solução melhor.
+I need to show that I trust their decisions and that, much like myself, they're working for th ebest of the team, even when I think we could bring a better solution.
 
-Eles têm a capacidade e serão responsáveis por manter o código e as soluções criadas. Passar por cima de suas escolhas sem um bom motivo passaria a impressão de que não creio que sejam capazes.
+They're capable and are also the ones responsible to maintain the code and solutions. Disregard their choices without a proper reason would sound like I don't trust they're actually capable.
 
-Apenas os guiarei para cumprirem suas tarefas no prazo, que as soluções sigam a visão da alta gerência — da empresa, ou seja — e que eles mantenham ou melhorem a qualidade do que fazemos.
+I should only guide them to finish their tasks on time, ensuring their solutions follow the C-Level vision and strategy, based on the OKRs we set together, doing the best they can.
 
-Não pensem nisso como sendo uma queixa contra o meu trabalho, mas sim como uma constatação de quem sempre foi do grupo da “mão na massa”, cresceu com isso e, agora, precisa controlar essa vontade descontrolada de “sujar as mãos”.
+Don't see this post as me complaining about my job, but a realization from someone who was always a hands-on person, grew this way, and now needs to control his crazy desire to solve things himself.
