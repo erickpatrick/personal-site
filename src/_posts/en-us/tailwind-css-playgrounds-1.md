@@ -124,3 +124,5 @@ In the past, back in the days of tables, _floats_, and other approaches, I would
 The image I originally saw only showed the effect on the left and right sides. I took the opportunity to also create the effect vertically. The mobile version is also well adjusted (from 320px and up).
 
 As we can see, it’s not something complicated to do, but the effect of thicker borders, one connecting to another, creating this sense of depth, is really cool.
+
+Obrigado a todos e até mais.
