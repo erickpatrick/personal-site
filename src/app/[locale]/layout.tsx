@@ -1,8 +1,13 @@
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
-import "./globals.css";
+import "@/app/globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import { i18n, Locale } from "@/i18n-config";
+
+export async function generateStaticParams() {
+  return i18n.locales.map((locale) => ({ lang: locale }));
+}
 
 export const metadata: Metadata = {
   title: {
@@ -44,19 +49,22 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
+export default async function RootLayout(props: {
   children: React.ReactNode;
-}>) {
+  params: Promise<{ locale: Locale }>;
+}) {
+  const params = await props.params;
+  const locale = params.locale;
+  const { children } = props;
+
   return (
-    <html lang="pt-br">
+    <html lang={locale}>
       <body>
         <div className="container mx-auto p-4 py-8">
-          <Header />
+          <Header locale={locale} />
         </div>
         <div className="container mx-auto p-4 py-8">{children}</div>
-        <Footer />
+        <Footer locale={locale} />
         <SpeedInsights />
       </body>
     </html>

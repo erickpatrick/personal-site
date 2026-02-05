@@ -1,16 +1,19 @@
-import { Article, getTopThreearticles } from "@/app/artigos/articles";
-import { toLocaleDateString } from "@/app/artigos/locale-date";
+import { Article, getTopThreearticles } from "@/app-locale/artigos/articles";
+import { toLocaleDateString } from "@/app-locale/artigos/locale-date";
+import { getDictionary } from "@/get-dictionaries";
+import { Locale } from "@/i18n-config";
 import Link from "next/link";
 
-export default function LaterstPosts() {
-  const latestArticles: Article[] = getTopThreearticles();
+export default async function LaterstPosts({ locale }: { locale: Locale }) {
+  const latestArticles: Article[] = getTopThreearticles(locale);
   const featuredArticle: Article = latestArticles.slice(0, 1)[0];
   const otherArticles: Article[] = latestArticles.slice(1, 3);
+  const dictionary = await getDictionary(locale);
 
   return (
     <div>
       <h3 className="text-center text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-black">
-        Últimos artigos que escrevi
+        {dictionary.pages.home.articles.heading}
       </h3>
       <div className="bg-white py-8 sm:py-16">
         <div className="mx-auto grid max-w-5xl grid-cols-1 gap-x-8 gap-y-12 sm:gap-y-16 lg:grid-cols-2">
@@ -19,7 +22,7 @@ export default function LaterstPosts() {
               dateTime={featuredArticle.date}
               className="block text-sm leading-6 text-gray-600"
             >
-              {toLocaleDateString(featuredArticle.date, "pt-BR")}
+              {toLocaleDateString(featuredArticle.date, locale)}
             </time>
             <h2
               id="featured-post"
@@ -33,11 +36,12 @@ export default function LaterstPosts() {
             <div className="mt-4 flex flex-col justify-between gap-6 sm:mt-8 sm:gap-8 lg:mt-4 lg:flex-col">
               <div className="flex">
                 <Link
-                  href={`/artigos/${featuredArticle.slug}`}
+                  href={`/${locale}/artigos/${featuredArticle.slug}`}
                   className="text-sm font-semibold leading-6 text-blue-600 hover:underline hover:underline-offset-8 decoration-2"
                   aria-describedby="featured-post"
                 >
-                  Continuar lendo <span aria-hidden="true">→</span>
+                  {dictionary.pages.home.articles.continue}{" "}
+                  <span aria-hidden="true">→</span>
                 </Link>
               </div>
             </div>
@@ -54,11 +58,11 @@ export default function LaterstPosts() {
                     dateTime={article.date}
                     className="block text-sm leading-6 text-gray-600"
                   >
-                    {toLocaleDateString(article.date, "pt-BR")}
+                    {toLocaleDateString(article.date, locale)}
                   </time>
                   <section className="w-full flex-none text-lg font-semibold tracking-tight text-gray-900">
                     <a
-                      href={`/artigos/${article.slug}`}
+                      href={`/${locale}/artigos/${article.slug}`}
                       className="hover:underline hover:underline-offset-8 decoration-2 decoration-wavy decoration-blue-600"
                     >
                       {article.title}

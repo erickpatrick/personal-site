@@ -1,0 +1,45 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "blog": "Blog",
+    "about": "About Me",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "It's a pleasure to welcome you",
+    "subtitle": {
+      "part1": "This is ",
+      "part2": "my",
+      "part3": " little space here on the Web"
+    }
+  },
+  "pages": {
+    "home": {
+      "projects": {
+        "heading": "Some of the projects I've been working on"
+      },
+      "articles": {
+        "heading": "Latest blog posts I've written",
+        "continue": "Continue reading"
+      }
+    },
+    "articles": {
+      "title": "Blog posts",
+      "description": "My thoughts, discoveries, and learnings about system design, programming, and related topics",
+      "readingTime": "-minute reading"
+    },
+    "about": {
+      "title": "About Me",
+      "description": "Learn more about my journey, skills, and experiences."
+    },
+    "contacts": {
+      "title": "Contact",
+      "description": "If you want to get in touch with me, here are some of the quickest ways you can reach out to me at any time."
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "A listing of some side projects I've been working on: Tabletop RPG, Video Games, YouTube, and more..."
+    }
+  }
+}

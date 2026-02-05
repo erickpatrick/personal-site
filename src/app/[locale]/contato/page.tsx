@@ -1,5 +1,7 @@
 import Divider from "@/components/home/divider";
 import PageTitle from "@/components/page-title";
+import { getDictionary } from "@/get-dictionaries";
+import { Locale } from "@/i18n-config";
 
 export const metadata = {
   title: "Contato",
@@ -7,7 +9,11 @@ export const metadata = {
     "Caso queira contatar-me, aqui estão algumas das formas mais rápidas que você pode usar para entrar em contato comigo a qualquer momento",
 };
 
-export default function ContactsRoot() {
+export default async function ContactsRoot(props: {
+  params: Promise<{ locale: Locale }>;
+}) {
+  const { locale } = await props.params;
+  const dictionary = await getDictionary(locale);
   const contacts = [
     { type: "Email", value: "itsme[at]erickpatrick.net" },
     {
@@ -34,8 +40,8 @@ export default function ContactsRoot() {
   return (
     <>
       <PageTitle
-        title="Contato"
-        description="Caso queira contatar-me, aqui estão algumas das formas mais rápidas que você pode usar para entrar em contato comigo a qualquer momento"
+        title={dictionary.pages.contacts.title}
+        description={dictionary.pages.contacts.description}
       />
 
       <Divider />

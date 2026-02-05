@@ -1,18 +1,38 @@
-[
-  {
-    "name": "RPG do Mestre",
-    "top": "RPG do",
-    "bottom": "Mestre",
-    "description": "Meu blog sobre Roleplaying Game (RPG). Desde 2009, publico textos relacionados a RPG de mesa lá.",
-    "link": "https://www.rpgdomestre.com/",
-    "icon": "rpg.svg"
-  },
-  {
-    "name": "Criador de Cartas",
-    "top": "Criador de",
-    "bottom": "Cartas",
-    "description": "Para quem curte jogos de cartas e sempre quis criar suas próprias, esse é um App simples que ajuda exatamente nisso. Crie cartas customizadas para Magic the Gathering, Tarô, Pokémon, Pôquer, e outros jogos.",
-    "link": "https://cards.rpgdomestre.com/",
-    "icon": "photo.svg"
-  }
-]
+{
+  "pt-br": [
+    {
+      "name": "RPG do Mestre",
+      "top": "RPG do",
+      "bottom": "Mestre",
+      "description": "Meu blog sobre Roleplaying Game (RPG). Desde 2009, publico textos relacionados a RPG de mesa lá.",
+      "link": "https://www.rpgdomestre.com/",
+      "icon": "rpg.svg"
+    },
+    {
+      "name": "Criador de Cartas",
+      "top": "Criador de",
+      "bottom": "Cartas",
+      "description": "Para quem curte jogos de cartas e sempre quis criar suas próprias, esse é um App simples que ajuda exatamente nisso. Crie cartas customizadas para Magic the Gathering, Tarô, Pokémon, Pôquer, e outros jogos.",
+      "link": "https://cards.rpgdomestre.com/",
+      "icon": "photo.svg"
+    }
+  ],
+  "en-us": [
+    {
+      "name": "RPG do Mestre",
+      "top": "RPG do",
+      "bottom": "Mestre",
+      "description": "My blog, in Brazilian Portuguese, about Roleplaying Game (RPG). Since 2009, I have been publishing texts related to tabletop RPGs there.",
+      "link": "https://www.rpgdomestre.com/",
+      "icon": "rpg.svg"
+    },
+    {
+      "name": "Cards Creator",
+      "top": "Cards",
+      "bottom": "Creator",
+      "description": "For those who enjoy card games and have always wanted to create their own, this is a simple app that helps with exactly that. Create custom cards for Magic the Gathering, Tarot, Pokémon, Poker, and other games.",
+      "link": "https://cards.rpgdomestre.com/",
+      "icon": "photo.svg"
+    }
+  ]
+}
