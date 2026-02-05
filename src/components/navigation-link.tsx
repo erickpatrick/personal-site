@@ -15,10 +15,14 @@ export default function NavigationLink({
   innactiveClass: string;
 }) {
   const pathname = usePathname();
+  const hrefParts = href.split("/");
+
+  const activevateClass =
+    hrefParts.length > 2 ? pathname.startsWith(href) : pathname === href;
 
   return (
     <Link
-      className={pathname === href ? activeClass : innactiveClass}
+      className={activevateClass ? activeClass : innactiveClass}
       href={href}
     >
       {text}
