@@ -24,6 +24,13 @@ export async function generateMetadata(
     title: dictionary.pages.about.title,
     description: dictionary.pages.about.description,
     keywords: keywords,
+    alternates: {
+      canonical: `/${locale}/sobre`,
+      languages: {
+        "en-us": "/en-us/sobre",
+        "pt-br": "/pt-br/sobre",
+      },
+    },
   };
 }
 

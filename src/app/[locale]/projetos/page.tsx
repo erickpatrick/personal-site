@@ -24,6 +24,13 @@ export async function generateMetadata(
     title: dictionary.pages.projects.title,
     description: dictionary.pages.projects.description,
     keywords: keywords,
+    alternates: {
+      canonical: `/${locale}/projetos`,
+      languages: {
+        "en-us": "/en-us/projetos",
+        "pt-br": "/pt-br/projetos",
+      },
+    },
   };
 }
 

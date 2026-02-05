@@ -26,6 +26,13 @@ export async function generateMetadata(
     title: dictionary.pages.articles.title,
     description: dictionary.pages.articles.description,
     keywords: keywords,
+    alternates: {
+      canonical: `/${locale}/artigos`,
+      languages: {
+        "en-us": "/en-us/artigos",
+        "pt-br": "/pt-br/artigos",
+      },
+    },
   };
 }
 

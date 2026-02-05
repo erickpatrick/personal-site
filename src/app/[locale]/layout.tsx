@@ -27,7 +27,11 @@ export async function generateMetadata({
     },
     description: dictionary.pages.metadata.description,
     metadataBase: new URL(
-      `https://www.ericpatrick.net${locale === "en" ? "" : `/${locale}`}`,
+      process.env.NEXT_PUBLIC_VERCEL_ENV === "production"
+        ? "https://www.erickpatrick.net"
+        : process.env.NEXT_PUBLIC_VERCEL_URL
+          ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
+          : "http://localhost:3000",
     ),
     generator: "Custom",
     applicationName: dictionary.pages.metadata.title,

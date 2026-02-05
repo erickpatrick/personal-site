@@ -25,6 +25,13 @@ export async function generateMetadata(
     title: article.title,
     description: article.excerpt,
     keywords: keywords,
+    alternates: {
+      canonical: `/${locale}/artigos/${slug}`,
+      languages: {
+        "en-us": "/en-us/artigos/" + slug,
+        "pt-br": "/pt-br/artigos/" + slug,
+      },
+    },
   };
 }
 

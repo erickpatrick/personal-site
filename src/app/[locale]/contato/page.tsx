@@ -23,6 +23,13 @@ export async function generateMetadata(
     title: dictionary.pages.contacts.title,
     description: dictionary.pages.contacts.description,
     keywords: keywords,
+    alternates: {
+      canonical: `/${locale}/contato`,
+      languages: {
+        "en-us": "/en-us/contato",
+        "pt-br": "/pt-br/contato",
+      },
+    },
   };
 }
 

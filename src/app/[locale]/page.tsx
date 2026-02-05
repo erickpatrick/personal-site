@@ -25,6 +25,13 @@ export async function generateMetadata(
     title: parentMetadata.title,
     description: parentMetadata.description,
     keywords: keywords,
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        "en-us": "/en-us",
+        "pt-br": "/pt-br",
+      },
+    },
   };
 }
 
