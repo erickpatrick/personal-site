@@ -1,65 +1,65 @@
 ---
-title: "Até logo Next.js... Bem vindos Laravel Folio e Laravel Volt"
-excerpt: "Um tempo atrás, na versão anterior do site, falei como o site saiu de um gerador estático em PHP, para Next.js. Hoje, falo do processo inverso e como voltei a usar PHP/Laravel..."
+title: "Goodbye Next.js… Welcome Laravel Folio and Laravel Volt"
+excerpt: "Some time ago, in the previous version of the site, I talked about how the site moved from a static generator in PHP to Next.js. Today, I talk about the reverse process and how I went back to using PHP/Laravel..."
 date: "2023-08-12T00:00:00.000Z"
 ---
 
-Um tempo atrás, na versão anterior do site, falei como o site saiu de um gerador estático em PHP, para Next.js. Hoje, falo do processo inverso e como voltei a usar PHP/Laravel...
+Some time ago, in the previous version of the site, I talked about how the site moved from a static generator in PHP to Next.js. Today, I talk about the reverse process and how I went back to using PHP/Laravel...
 
-### Um pouco de história
+### A bit of history
 
-Em 70% da minha carreira, programei e liderei equipes que programavam em PHP. Trabalho com PHP desde 2002, quando tinha 14 anos e criei um site de fã sobre o anime Dragon Ball. Já com Laravel, trabalho desde quando ainda estava na versão 3, lá pelos anos 2012/2013.
+About 70% of my career, I’ve programmed and led teams that programmed in PHP. I’ve worked with PHP since 2002, when I was 14 years old and created a fan site about the anime Dragon Ball. As for Laravel, I’ve worked with it since it was still on version 3, around 2012/2013.
 
-Também trabalhei com outros frameworks e sistemas feitos em PHP, desde Symfony, passando pelo Magento, Zend/Laminas, Smarty, CakePHP, CodeIgniter, e muitos outros. Tenho extenso conhecimento do mundo do PHP, e segui toda sua evolução desde o PHP3/4, embora tenha recentemente migrado para o mundo JavaScript por conta do trabalho.
+I’ve also worked with other frameworks and systems built in PHP, from Symfony to Magento, Zend/Laminas, Smarty, CakePHP, CodeIgniter, and many others. I have extensive knowledge of the PHP world and followed its entire evolution since PHP 3/4, although I recently migrated to the JavaScript world because of work.
 
-Esse mesmo site já foi escrito em vários formatos: HTML puro, geradores estáticos em PHP (o último tendo sido o Jigsaw), e o último em JavaScript/React/Next.js. Sempre usei esse site como um laboratório para meus aprendizados, fosse em PHP, JavaScript, CSS, HTML...
+This same site has already been written in several formats: pure HTML, static generators in PHP (the last one being Jigsaw), and most recently in JavaScript/React/Next.js. I’ve always used this site as a laboratory for my learning, whether in PHP, JavaScript, CSS, HTML...
 
-E até hoje ele continua sendo, por isso estou mudando, mais uma vez, a tecnologia por trás dele.
+And to this day, it continues to be so. That’s why I’m changing, once again, the technology behind it.
 
-### Até logo, Next.js
+### Goodbye, Next.js
 
-Mesmo gostando muito de trabalhar com Next.js e da liberdade que dá para construir algumas aplicações juntando algumas poucas APIs, o ecossistema JavaScript ainda deixa muito a desejar quando comparado ao de outras linguagens.
+Even though I really enjoy working with Next.js and the freedom it gives to build certain applications by stitching together a few APIs, the JavaScript ecosystem still leaves a lot to be desired when compared to other languages.
 
-Para se ter uma ideia, uso Next.js tanto em projetos pessoais quanto na empresa em que trabalho diariamente. São projetos, pequenos, médios e grandes. Vão de blogs a e-Commerce.
+To give you an idea, I use Next.js both in personal projects and at the company where I work daily. These are small, medium, and large projects. They range from blogs to e-commerce.
 
-Sem entrar em muitos detalhes, o projeto da empresa que trabalho é um e-Commerce que integra cerca de 30 sistemas, entrega para quase todo continente europeu, e é traduzido para 7 idiomas diferentes. Ele recebe milhões de visitas ao dia, e também gera milhares de pedidos ao dia.
+Without going into too many details, the company project I work on is an e-commerce platform that integrates around 30 systems, delivers to almost the entire European continent, and is translated into 7 different languages. It receives millions of visits per day and also generates thousands of orders daily.
 
-Mesmo trabalhando nesse projeto desde 2021, tendo conversado diretamente com pessoas ligada ao Next.js, e acumulando enorme experiência no ecossistema, ainda sinto falta da facilidade que outras linguagens proporcionam.
+Even working on this project since 2021, having spoken directly with people connected to Next.js, and accumulating a huge amount of experience in the ecosystem, I still miss the ease that other languages provide.
 
-Por isso, decidi que a nova versão do site mudaria de linguagem. Primeiramente, tinha decidido por Elixir e a framework Phoenix. Aprendi a linguagem relatimente rápido e comecei a trabalhar com a framework logo depois.
+Because of that, I decided that the new version of the site would change languages. At first, I decided on Elixir and the Phoenix framework. I learned the language relatively quickly and started working with the framework shortly after.
 
-Criei pequenos sistemas com eles, aprendendo mais e mais sobre, mas ainda sentia falta de algo. Muito provavelmente minha falta de familiaridade com o ambiente deixava uma pulga atrás da minha orelha.
+I created small systems with them, learning more and more, but I still felt like something was missing. Most likely, my lack of familiarity with the environment left me with a lingering doubt.
 
-Foi então que aconteceu a Laracon US 2023, a conferência oficial de Laravel nos EUA, e vi a apresentação de Taylor Otwell, criador do Laravel, sobre Laravel Folio e Laravel Volt. Essa parensentação trouxe várias lembranças da minha época com PHP...
+Then Laracon US 2023 happened, the official Laravel conference in the US, and I watched the presentation by Taylor Otwell, the creator of Laravel, about Laravel Folio and Laravel Volt. That presentation brought back many memories from my time with PHP...
 
-### Olá Laravel Folio e Laravel Volt
+### Hello Laravel Folio and Laravel Volt
 
-Para quem ainda não sabe, Laravel Folio e Laravel Volt são dois novos pacotes do ambiente do Laravel.
+For those who don’t know yet, Laravel Folio and Laravel Volt are two new packages in the Laravel ecosystem.
 
-O Laravel Folio é uma espécie de Next.js dentro do Laravel, provendo rotas baseadas em arquivos, semelhante ao que o Next.js faz, mas com "baterias incluídas", já que podemos utilizar todo o ecossistema Laravel (e pacotes derivados) para complementá-lo.
+Laravel Folio is kind of a Next.js inside Laravel, providing file-based routing similar to what Next.js does, but with “batteries included,” since we can use the entire Laravel ecosystem (and derived packages) to complement it.
 
-Já o Laravel Volt, por sua vez, é um jeito de criar componentes Livewire (um pacote derivado, mas tratado com [**_first party/oficial_** agora](https://livewire.laravel.com)) de forma funcional e em um único arquivo Blade.
+Laravel Volt, on the other hand, is a way to create Livewire components (a derived package, but now treated as [**_first-party/official_**](https://livewire.laravel.com)) in a functional way and in a single Blade file.
 
-Isso permite pessoas que querem ficar no ambiente PHP a criar páginas e/ou sistemas de forma semelhante ao do sistema JavaScript (se isso é uma coisa boa ou ruim, é tópico para um possível artigo no futuro).
+This allows people who want to stay in the PHP environment to create pages and/or systems in a way similar to JavaScript systems (whether that’s a good or bad thing is a topic for a possible future article).
 
-Também devemos entender que a existência de ambos, Folio e Volt, permite que pessoas vindo do ecossitema JavaScript, acostumadas com _Vue/Nuxt Single File Components_, Next.js componentes/páginas com seus _getStaticProps_ e similares, a criarem páginas dinâmicas de forma semelhante no Laravel e a experimentarem a framework.
+We should also understand that the existence of both Folio and Volt allows people coming from the JavaScript ecosystem, used to _Vue/Nuxt Single File Components_, Next.js components/pages with their _getStaticProps_ and similar concepts, to create dynamic pages in a similar way in Laravel and try out the framework.
 
-E foi exatamente isso que aconteceu comigo. O que a equipe do Laravel apresentou na Laracon US chamou minha atenção e mostrou que poderia ter o ótimo ecossistema do Laravel com a velocidade e experiência do Next.js. O melhor dos dois mundos, ao meu ver (mais uma vez, é tópico para um possível artigo no futuro).
+And that’s exactly what happened to me. What the Laravel team presented at Laracon US caught my attention and showed that I could have the great Laravel ecosystem with the speed and experience of Next.js. The best of both worlds, in my view (once again, a topic for a possible future article).
 
-E assim resolvi reescrever meu site pessoal com essas duas tecnologias. Além delas, adicionei o Filament PHP para criação de paineis de controle, que me permitem escrever e lidar com meus artigos, contatos e outros items desse site, em um único lugar.
+And so I decided to rewrite my personal site with these two technologies. In addition to them, I added Filament PHP to create admin panels, which allow me to write and manage my articles, contacts, and other items on this site, all in one place.
 
-Vale lembrar que tudo isso, em meras 4 horas totais de trabalho, sem precisar juntar inúmeras APIs para o que precisava. Por exemplo: Autenticação, autorização, funcionalidade CMS, upload de imagens/arquivos, sessões, envio de emails, analytics, banco de dados, e muitas outras coisas...
+It’s worth remembering that all of this took a mere 4 total hours of work, without needing to stitch together countless APIs for what I needed. For example: authentication, authorization, CMS functionality, image/file uploads, sessions, email sending, analytics, database, and many other things...
 
-Com JavaScript, geralmente, teria de ir atrás de SaaS como: Auth0, Contentful, Cloudinary, Redis Cloud, Resend, Fathom Analytics, Supabase/Torso, e vários outras. Ter de lidar com diversas chaves de API (_API Keys_), limitação de chamadas (_rate limiting_), limitação de dados usado (_ingress/egress data_)...
+With JavaScript, I would usually have to look for SaaS solutions like: Auth0, Contentful, Cloudinary, Redis Cloud, Resend, Fathom Analytics, Supabase/Turso, and many others. Having to deal with multiple API keys, rate limiting, data usage limits (ingress/egress data)...
 
-Sem contar que, para muitos desses sistemas, para ter um mínimo de segurança que meus dados estarão salvos, que terei um nível de suporte ok/satisfatório, ou que posso usar o ambiente para fins comerciais, terei de ir para um plano pago, custando em média US$10/mês para o plano mais simples, em cada um deles.
+Not to mention that, for many of these systems, to have a minimum level of confidence that my data will be safe, that I’ll have a decent/satisfactory level of support, or that I can use the environment for commercial purposes, I’d need to move to a paid plan, costing on average US$10/month for the most basic plan, for each one of them.
 
-Com o servidor que pago na Digital Ocean, por US$5/mês, consigo basicamente tudo isso e sem ter de integrar uma API sequer. E se eu precisar de mais "potência" para meus sites e sistemas, posso pagar US$12/mês e obter mais "potência". Ainda assim estaria abaixo do valor que teria de pagar por todos os serviços citados acima.
+With the server I pay for at DigitalOcean, for US$5/month, I basically get all of this without having to integrate a single API. And if I need more “power” for my sites and systems, I can pay US$12/month and get more “power.” Even then, I’d still be below the amount I’d have to pay for all the services mentioned above.
 
-### O que o futuro reserva
+### What the future holds
 
-Quem que realmente sabe o que o futuro reserva? Se soubessemos, apostaríamos na loteria o tempo todo e não precisaríamos trabalhar nunca mais, não é? Só sei que estou feliz com esse ecossistema do Laravel e com o que consegui em poucas horas ao atualizar esse site.
+Who really knows what the future holds? If we did, we’d be playing the lottery all the time and never need to work again, right? All I know is that I’m happy with this Laravel ecosystem and with what I was able to achieve in just a few hours while updating this site.
 
-É possível que eu tivesse FOMO e tenha pulado de tecnologia em tecnologia que apareceu e chamou minha atenção? Há uma grande chance! Pode ser que eu tenha decidido escolher uma tecnologia que diversos outros desenvolvedores usam, ganham dinheiro com, e provê bastante estabilidade? Com certeza!
+Is it possible that I had FOMO and jumped from technology to technology whenever something new caught my attention? There’s a good chance! Could it be that I decided to choose a technology that many other developers use, make money with, and that provides plenty of stability? Absolutely!
 
-A única coisa que peço é que o futuro me permita publicar mais e novos projetos.
+The only thing I ask is that the future allows me to publish more and new projects.
