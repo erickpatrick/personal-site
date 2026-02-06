@@ -1,97 +1,97 @@
 ---
-title: "É normal trabalhar para os outros, não empreender ou ser patrão"
-excerpt: "Tem gente que é melhor trabalhando para outros que empreendendo. Não há problema trabalhar para os outros e não querer criar sua própria empresa."
+title: "It's completely normal work for others and not being a boss or enterpreneur"
+excerpt: "There are people that deal better work for others than in enterpreneurship. There's no problem with that and not wanting to have your own company/business."
 date: "2023-09-03T00:00:00.000Z"
 ---
 
-Nessas últimas semanas, tenho trabalhado bastante para colocar alguns dos [meus aplicativos online](/projetos). O trabalho tem sido desafiador, exaustivo tanto física quanto mentalmente, e exige um trabalho intenso de [_crunch time_](https://www.consumidormoderno.com.br/2023/05/19/crunch-time-o-que-e-e-como-as-empresas-podem-evitar/) quase todos os dias.
+In the last few weeks, I've been working a lot to bring some of my [projects](/projetos) online. It's a challenging work, takes a toll, both physicaly and mentally, and it demands a lot of [_crunch time_](https://www.consumidormoderno.com.br/2023/05/19/crunch-time-o-que-e-e-como-as-empresas-podem-evitar/) almost every day.
 
-Tenho plena consciência de que este _crunch time_ é motivado pelas minhas próprias metas e cobranças para esses projetos, e poderia adequá-las para algo mais leve. Mas se deixar muito relaxado, sendo como sou, é provável que eu acabe procastinando.
+I'm fully conscious that _crunch time_ comes from my own targets, goals, and self-push into these projects, and that I could solve this by adjusting them. However, knowing myself, if I don't push myself too much, I end up proscratinating.
 
-Para ter uma ideia, em muitos dias, vou deitar para dormir por volta da 1h30 da manhã, sendo que às 6h30 tenho que levar minha filha para a escola e às 7h começo na empresa em que trabalho com _carteira assinada_.
+So you understand better, many days, I end up going to bed at around 1h30AM and I have to wake up at 6h30AM to take my daughter to school and my white-collar work starts at 7AM.
 
-E tendo isso em mente, me pego pensando se esse _crunch time_, se esse estresse extra compensará... Se sou um tipo de pessoa que serve para ser meu próprio patrão, para empreender...
+With this in mind, I get myself thinking if this _crunch time_, this extra stress time will really bring any compensation whatsoever... If I'm the kind of people who work as an enterpreneur or being my own boss...
 
-### A fantasia de ser empreendedor ou de ser patrão.
+### The fantasy of being an enterpreneur.
 
-Há uma grande probabilidade de que um amigo ou parente nosso já tenha dito que não vê a hora de abrir um negócio próprio e virar patrão. Que não aguenta mais trabalhar tanto para os outros, ficar muito estressado e ganhar tão pouco.
+There's a high chance a friend or a relative once said that they wanted to open their own business and become their own bosses. They're fed up of working for others, being quite stressed, and earning so low.
 
-Eu já fui essa pessoa. Volta e meia ainda sou essa pessoa (como agora, com meus aplicativos e _crunch time_). E eu entendo de onde vem esse pensamento. O estresse diário, a falta de perspectiva, o abuso... Muitos fatores fazem com que pensemos assim.
+I was that person once. From time to time, I AM that person (just like now, with this extra _crunch time_). And I completely understand this thinking. The daily stress, lack of future, the abuse... Lots of factors sum up leading to us thinking that way.
 
-Às vezes, nem é tanto a questão de onde você trabalha e o clima da empresa. Muitas vezes, simplesmente queremos criar algo que podemos chamar de nosso. É um desejo latente, difícil de deixar de lado, e que nos impele a querer trabalhar mais para realizar esse desejo.
+Some times, it's not really the a question of where you work or the company environment. Many times it's only our desire to create something and call it ours. It's our deep desire, hard to put it away, pushing us to work more to fulfil it.
 
-Mas a que custo?
+But at what cost?
 
-### O choque de realidade em empreender ou em ser patrão.
+### The enterpreneur reality.
 
-[Segundo o Sebrae](https://sebrae.com.br/sites/PortalSebrae/artigos/a-taxa-de-sobrevivencia-das-empresas-no-brasil,d5147a3a415f5810VgnVCM1000001b00320aRCRD), cerca de 30% dos MEI (micro-empreendedor individual) e 21% das ME (micro empresas) fecham antes dos 5 anos de atividade.
+[Acording to Sebrae](https://sebrae.com.br/sites/PortalSebrae/artigos/a-taxa-de-sobrevivencia-das-empresas-no-brasil,d5147a3a415f5810VgnVCM1000001b00320aRCRD) (a Brazilian agency to help enterpreneurs), around 30% of freelancers and consultans, and 21% das SMB (small-to-medium businesses) close before 5 years of full activity.
 
-E ainda assim, muitas pessoas se sentem impelidas em _"montar um negócio"_. Muito por acharem que ao ter um negócio próprio farão diferente e poderão criar algo sustentável, sem estresse, gerando renda, e ficarão ricos. Infelizmente, a grande maioria passa bem longe disso.
+Still, many people want to _"build a company"_. Be it because they will be different and won't make those mistakes, they will create a sustenable business, without stress, making revenue, and end up rich. Unfortunately, most of them will be far away from that target.
 
-Daí vem a pergunta: Devemos piorar nossa saúde, ficar mais estressados, descansar menos, deixar de curtir nossa família e amigos? E tudo isso ainda correndo o perigo de não dar certo? É saudável investir tempo e dinheiro em uma empreitada cheia de grandes incertezas?
+And this brings the question: Should we make our lives worse, get more stressed, rest even less, stop enjoying our family and friends? And still risk not getting it right? Is it healthy to invest so much time and money in a path so full of uncertanties?
 
-### A árdua batalha pelo "seu lugar ao sol".
+### The challenge to get your place amongst gods
 
-Não tem porque colocar na cabeça que temos de empreender ou de sermos patrões. Geralmente, essa ideia está associada a uma visão que temos que pessoas empreendedoras ou patrões são pessoas ricas.
+There's no reason to get it into your head that you have to be an entrepreneur or a boss. This idea is generally associated with the perception that entrepreneurs or bosses are rich people.
 
-Enquanto há certa verdade que pessoas ricas costumam ser empreendedoras ou patrões, nem todos patrões e empreendedores são ricos. Muitas pessoas gastam todo seu dinheiro tentando alavancar algum negócio e acabam não conseguindo.
+While there's some truth to the fact that wealthy people are often entrepreneurs or bosses, not all bosses and entrepreneurs are rich. Many people spend all their money trying to leverage a business and end up failing.
 
-Basta lembrar do relatório do Sebrae. A maioria não está preparada mentalmente, não possui um plano de negócios ou é um plano deficiente, e também não sabem gerir de forma eficiente. Muitos acham que é fácil e não precisam de estudos ou empenho.
+Just remember the Sebrae report. Most are not mentally prepared, don't have a business plan or have a deficient plan, and also don't know how to manage efficiently. Many think it's easy and doesn't require study or effort.
 
-Se você quer mesmo seguir esse caminho, coloque todo seu empenho, estude, aprimore-se. Não será mais fácil só porque você está no comando agora. Entenda que, agora, você terá bem mais trabalho pela sua frente.
+If you really want to follow this path, put in all your effort, study, improve yourself. It won't be easier just because you're in charge now. Understand that you'll have much more work ahead of you.
 
-Enquanto antes era apenas trabalhar de 8h às 18h, com 1-2h de almoço, agora, principalmente no começo, tudo é muito diferente. Você, desde que acorda até a hora de dormir (ou mesmo durante seus sonhos), só pensa na empresa:
+While before it was just working from 8 am to 6 pm, with 1-2 hours for lunch, now, especially in the beginning, everything is very different. From the moment you wake up until bedtime (or even during your dreams), you only think about the company:
 
-- em todos que dependem da sua empresa
-- nas contas que a empresa tem
-- nos serviços prestados que tem de entregar
-- nas "poucas horas" para resolver todos os problemas
-- no pouco tempo com a família
-- nas atividades que perdeu com suas crianças
-- no dinheiro que está gastando
-- no retorno que está demorando a chegar
-- na burocracia e papelada necessária
+- everyone who depends on your company
+- the company's bills
+- the services you have to deliver
+- the "few hours" to solve all the problems
+- the little time with your family
+- the activities you missed with your children
+- the money you're spending
+- the return that's taking too long to arrive
+- the necessary bureaucracy and paperwork
 
-Essa estresse e pressão constante não é para todos. E isso é completamente normal. Assim como não é para todos praticar algum esporte em alto nível, ensinar outras pessoas de forma efetiva, ser mestre no entretenimento, e por aí vai.
+This constant stress and pressure isn't for everyone. And that's completely normal. Just as it's not for everyone to practice a sport at a high level, teach other people effectively, be a master in entertainment, and so on.
 
-### É normal trabalhar para os outros.
+### It's normal to work for others.
 
-Lembre-se: o normal é não ser empreendedor ou patrão. Caso contrário, todos já seríamos.
+Remember: it's normal not to be an entrepreneur or boss. Otherwise, we all would already be.
 
-Temos de mudar essa ideia que é o fim do mundo se aposentar tendo trabalhado apenas para os outros. Não há mal algum nisso e as chances disso acontecer com qualquer um de nós, são maiores que a de ficarmos milionários. É o normal.
+We have to change this idea that it's the end of the world to retire having worked only for others. There's nothing wrong with that, and the chances of it happening to any of us are greater than becoming millionaires. It's normal.
 
-Decerto, a grande maioria dos trabalhadores recebe um salário muito distante daquilo que seria considerado ideal. Isso não acontece apenas no Brasil, mas por quase todo o mundo. E, infelizmente, essa é a realidade.
+Certainly, the vast majority of workers receive a salary far from what would be considered ideal. This doesn't only happen in Brazil, but almost all over the world. And, unfortunately, that's the reality.
 
-Contudo, isso não impossibilita de buscarmos empregos melhores, que paguem bem e nos deem uma certa qualidade de vida. Nada que nos torne podres de rico, mas suficiente para não ficarmos preocupados no final do mês.
+However, this doesn't prevent us from seeking better jobs that pay well and give us a certain quality of life. Nothing that will make us filthy rich, but enough so we don't have to worry at the end of the month.
 
-Não devemos pensar que devemos nosso emprego à empresa que estamos trabalhando. Claro, devemos respeitá-la, dando nosso melhor. Porém, se uma oportunidade melhor aparece, não temos porque ficarmos com peso na consciência em escolhê-la.
+We shouldn't think that we owe our jobs to the company we work for. Of course, we should respect it, giving our best. However, if a better opportunity arises, we don't have to feel guilty about choosing it.
 
-### Temos potes de ouro no fim do túnel também.
+### There are pots of gold at the end of the tunnel too.
 
-Também temos de mudar essa ideia de que não dá para viver bem trabalhando para os outros. É possível, sim, ganhar muito dinheiro trabalhando para os outros, e em qualquer lugar do mundo.
+We also have to change this idea that it's impossible to live well working for others. It is possible to earn a lot of money working for others, anywhere in the world.
 
-O que temos de entender é que, assim como quando queremos ser nossos próprios patrões e empreendedores, ganhar muito dinheiro trabalhando para os outros é algo que requer muito empenho, estudo, e tempo investido. Muitas vezes em detrimento de nossa saúde e tempo com nossas famílias.
+What we need to understand is that, just like when we want to be our own bosses and entrepreneurs, making a lot of money working for others requires a great deal of effort, study, and time invested. Often at the expense of our health and time with our families.
 
-Alguma vezes, precisamos até usar de artimanhas, nada que faça mal aos outros, mas certas bajulações, horas extras não planejadas, tapar os olhos para os erros dos outros, tudo em busca de um aumento ou promoção.
+Sometimes, we even need to use tricks, nothing that harms others, but certain flattery, unplanned overtime, turning a blind eye to others' mistakes, all in pursuit of a raise or promotion.
 
-Mas, uma vez conseguindo alcançar aquilo que tanto queremos, podemos voltar para nossas jornadas 8h-18h, aproveitar nossas famílias, nosso tempo livre para descansar, e ainda termos um dinheiro bom na conta.
+But, once we achieve what we so desire, we can return to our 9-to-5 workdays, enjoy our families, our free time to rest, and still have a good amount of money in the bank.
 
-Dependendo da sua área de atuação, é possível viver muito bem. Concursados de bancos, com a chance de cursos internos anualmente; trabalhadores de agências financeiras; criativos de marketing com campanhas para multinacionais; trabalhadores da area de TI, principalmente os da área de desenvolvimento...
+Depending on your field, it's possible to live very well. Bank employees, with the chance of annual internal training courses; workers in financial institutions; marketing creatives working on campaigns for multinational companies; IT workers, especially those in development...
 
-### O poder da área de desenvolvimento
+### The Power of Development
 
-Nós da área de desenvolvimento temos a vantagem de poder trabalhar remoto, recebendo em moeda estrangeira mais valorizada. Essa possibilidade de receber em dólar, euro, libras, francos suíços permite que as empresas contratem por um valor mais barato, enquanto aproveitamos do câmbio e ganhamos "mais".
+Those of us in development have the advantage of being able to work remotely, receiving payment in a more valuable foreign currency. This possibility of receiving in dollars, euros, pounds, Swiss francs allows companies to hire for a lower rate, while we take advantage of the exchange rate and earn "more".
 
-Mesmo quando as vagas não são remotas, algumas vezes é possível viver melhor com pouco dinheiro num outro país do que viver no Brasil com pouco dinheiro. Não precisamos ficar ricos para termos uma mudança de vida boa.
+Even when the jobs aren't remote, sometimes it's possible to live better with little money in another country than living in Brazil with little money. We don't need to be rich to have a good life change.
 
-A simples mudança para um local em que é possível usar o celular sem se preocupar com o roubo já é uma grande melhoria. Ainda temos lugares onde tanto escolas quando universidades são gratuitas e de excelente qualidade, necessitando no máximo de investimento em material próprio e transporte. Esse último ainda pode ser custeado pelo governo em diversos casos.
+Simply moving to a place where you can use your cell phone without worrying about theft is already a great improvement. There are also places where both schools and universities are free and of excellent quality, requiring at most investment in personal materials and transportation. The latter can even be covered by the government in many cases.
 
-Ao se mudar para um desses lugares, o salário inicial, que inicialmente parecia ser médio ou baixo, torna-se um pouco atrativo. E lembrando que não devemos nosso emprego à qualquer empresa e podemos trabalhar e buscar melhores oportunidades.
+When moving to one of these places, the initial salary, which initially seemed average, can significantly improve your overall well-being even if it's low, it becomes somewhat attractive. And remember that we don't owe our jobs to any company and we can work and seek better opportunities.
 
-Por vezes, o pouco já é o suficiente para uma vida digna. E mesmo que não seja, você terá aprendido algo sobre suas capacidades, sobre como é trabalhar para fora, e o que precisa fazer para buscar algo que seja suficiente.
+Sometimes, a little is enough for a decent life. And even if it isn't, you will have learned something about your abilities, about what it's like to work outside the home, and what you need to do to find something that is sufficient.
 
-### A vida é sua e só sua
+### Life is yours and yours alone
 
-No final das contas, você é quem sabe o que é preciso para sua vida. Você quer empreender ou criar uma empresa própria? Vá e faça acontecer. Quer continuar trabalhando para os outros, já que há uma estrutura mais "simples" a seguir? Continue.
+In the end, you are the one who knows what you need for your life. Do you want to start your own business or create your own company? Go and make it happen. Do you want to continue working for others, since there is a "simpler" structure to follow? Continue.
 
-Não deixe os outros decidirem por você o que fazer com sua vida.
+Don't let others decide for you what to do with your life.
